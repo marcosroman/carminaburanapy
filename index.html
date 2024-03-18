@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Carmina Burana</title>
+	<style>
+		* {
+			font-family: sans-serif;
+			background: black;
+			color: lightgray;
+		}
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		/*
+		img {
+			max-width: 75%;
+			max-height:100%;
+		}
+		*/
+		.portada {
+			min-height: 100vh;
+			background-image: url('redfortuna.jpg');
+			background-position: center;
+			background-size: auto;
+			background-repeat: no-repeat;
+			display: flex;
+			align-content: center;
+			justify-content: center;
+			flex-direction: column;
+			text-align: center;
+		}
+
+		.portada h1, .portada em {
+			margin: 3vh 5vw;
+			background-color: rgba(255,255,255,0);
+			text-shadow: 4em 4em 4em rgba(1, 1, 1, 1); /* Horizontal offset, Vertical offset, Blur radius, Color */
+		}
+		.portada h1 {
+			color: #d0c4ae;
+			align-self: center;
+			width: 80vw;
+			font-size: 8vw;
+		}
+		.portada em {
+			color: #d0c4ae;
+			/*
+			color: #72604c
+				*/
+		}
+
+		.intro {
+			margin: 10vh 10vw;
+		}
+		.intro figure {
+			margin: 5vh auto;
+			width: 80%;
+		}
+		.intro figure figcaption {
+			text-align: center;
+		}
+		.intro figure img {
+			display: block;
+			margin: 0 auto;
+			width: 100%;
+		}
+
+		.intro p {
+			text-align: justify;
+		}
+
+		ul {
+			text-align: center;
+			margin: 2vh auto;
+			padding-left: 0;
+			font-weight: bold;
+			list-style-type: none;
+		}
+		ul ul {
+			font-weight: normal;
+			text-align: center;
+			padding-left: 0;
+		}
+		.letras {
+			margin: 10vh 0;
+			padding: 10vh 0;
+			background-color: #d0c4ae;
+		}
+		.letras * {
+			background-color: #d0c4ae;
+			color: black;
+			text-align: center;
+		}
+		.letras h1 {
+			margin: 0;
+			padding: 5vh 0;
+			justify: center;
+		}
+		.traduccion {
+			font-style: italic;
+			font-weight: normal;
+		}	
+		    table {
+      width: 100%; /* Set the table width to 100% */
+      border-collapse: collapse; /* Collapse the borders */
+			margin: 0 5vw;
+    }
+    th, td {
+      width: 50%; /* Set each column width to 50% */
+      /*padding: 8px;
+      border: 1px solid black;
+			*/
+    }
+		td {
+			padding: 1vh 0;
+			/*margin: 5vh 0;*/
+		}
+		.output {
+			margin: 0 10vw;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="portada">
+		<h1>CARMINA BURANA</h1>
+		<em>
+			CANTIONES PROFANAE CANTORIBUS ET CHORIS CANTANDAE COMITANTIBUS INSTRUMENTIS ATQUE IMAGINIBUS MAGICIS
+		</em>
+
+		<!--
+		<div>
+			<figure>
+				<img src="rotafortunae.jpg" alt="Rueda de la fortuna"/>
+				<figcaption class="footnote">
+					Rota fortunae (rueda de la fortuna).<br>
+					<span style="font-size: small">En la filosofía medieval y antigua, simboliza la naturaleza caprichosa del Destino. La rueda pertenece a la diosa Fortuna, que la hace girar al azar, cambiando las posiciones de quienes están en la rueda: algunos sufren grandes desgracias, otros obtienen ganancias inesperadas.</span>
+				</figcaption>
+			</figure>
+		</div>
+		-->
+	</div>
+
+	<div class="intro">
+		<p>Carmina Burana: <em>cantiones profanae cantoribus et choris cantandae comitantibus instrumentis atque imaginibus magicis</em> <span style="font-size: smaller">(canciones laicas para cantantes y coreutas para ser cantadas junto a instrumentos e imágenes mágicas)</span> es una cantata escénica compuesta por Carl Orff entre 1935 y 1936.</p>
+
+		<p>Se basa en 24 poemas del "Carmina Burana" ("Canciones de Benediktbeuen"): un manuscrito de 254 poemas y textos dramaticos. Escrito en lenguas medievales -principalmente Latin, ademas de Aleman (Alto Aleman Medio) y Frances Antiguo (Arpitano)-, proviene en su mayor parte de los siglos XI y XII.</p>
+
+		<figure>
+			<img src="carminaburana.jpg" alt="Carmina Burana, manuscrito"/>
+			<figcaption class="footnote">Pagina del manuscrito original<br><!--<span style="font-size: small">Abajo se lee "O fortuna, velut luna, statu variabilis..."</span>--></figcaption>
+		</figure>
+
+		<p>La seleccion cubre un amplio rango de temas: la inconstancia de la fortuna y la riqueza, la naturaleza efimera de le vida, la alegria por el regreso de la primavera y los placeres -y peligros- de la bebida, la glotoneria, el juego y la lujuria.</p>
+
+		<figure>
+					<img src="rotafortunae.jpg" alt="Rueda de la fortuna"/>
+					<figcaption class="footnote">
+						Rota fortunae (rueda de la fortuna)<br>
+						<span style="font-size: small">En la filosofía medieval y antigua, simboliza la naturaleza caprichosa del Destino. La rueda pertenece a la diosa Fortuna, que la hace girar al azar, cambiando las posiciones de quienes están en la rueda: algunos sufren grandes desgracias, otros obtienen ganancias inesperadas.</span>
+					</figcaption>
+		</figure>
+
+		<p>El compositor, en su intención de escenificar la obra con danza, coreografía, diseño visual y otras acciones escénicas, la describiria como una "cantata escenica". Orff suscribia un concepto dramático llamado "Theatrum Mundi": en e'l, la música, el movimiento y la voz eran inseparables.<br><span style="font-size: smaller">La fórmula artística de Orff limitaba la música en el sentido de que cada momento musical debía estar conectado con una acción en el escenario. Es aquí donde las interpretaciones modernas de Carmina Burana a menudo no cumplen con las intenciones de Orff.</span></p>
+	</div>
+
+	<div class="letras">
+		<h1>CARMINA BURANA</h1>
+		<ul>
+			<li>Fortuna Imperatrix Mundi<br><span class="traduccion">Fortuna, emperatriz del mundo</span>
+				<ul>
+					<li><a href="#c0">O Fortuna</a></li>
+					<li><a href="#c1">Fortune plango vulnera</a></li>
+				</ul>
+			</li>
+			<li>Primo vere<br><span class="traduccion">En primavera</span>
+				<ul>
+					<li><a href="#c2">Veris leta facies</a></li>
+					<li><a href="#c3">Omnia Sol temperat</a></li>
+					<li><a href="#c4">Ecce gratum</a></li>
+				</ul>
+			</li>
+			<li>Uf dem anger<br><span class="traduccion">En la pradera</span>
+				<ul>
+					<li>Tanz</li>
+					<li style="color: gray">Floret silva nobilis</li>
+					<li><a href="#c5">Chramer, gip die varwe mir</a></li>
+					<li>Reie</li>
+					<li><a href="#c6">Swaz hie gat umbe</a></li>
+					<li><a href="#c7">Were diu werlt alle min</a></li>
+				</ul>
+			</li>
+			<li>In taberna<br><span class="traduccion">En la taberna</span>
+				<ul>
+					<li><a href="#c8">Were diu werlt alle min</a></li>
+					<li>Estuans interius</li>
+					<li>Olim lacus colueram</li>
+					<li>Ego sum abbas</li>
+					<li>In taberna quando sumus</li>
+				</ul>
+			</li>
+			<li>Cour d'amours<br><span class="traduccion">La corte de amor</span>
+				<ul>
+					<li>Amor volat undique</li>
+					<li>Dies, nox et omnia</li>
+					<li>Stetit puella</li>
+					<li>Circa mea pectora</li>
+					<li>Si puer cum puellula</li>
+					<li>Veni, veni, venias</li>
+					<li>In trutina</li>
+					<li>Tempus est iocundum</li>
+					<li>Ave formosissima</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<script type="text/javascript" src="lyrics.js"></script>
+	<script>
+		function displayText() {
+			let out = document.getElementById("output");
+
+			let n = letras.length;
+
+		  let output = "";
+			for (let i=0; i<n; i++) {
+				let titulo = letras[i]["titulo"];
+				let comentarios = letras[i]["comentarios"];
+				let letra = letras[i]["letra"];
+
+				// 0 for original, 1 for translation
+					output += "<div id=\"c"+i+"\">"
+							+ "<h3><table><tr><td>"+titulo[0].toUpperCase()+"</td><td>"+titulo[1]+"</td></tr></table></h3>"
+							+ (comentarios ? "<p>"+comentarios+"</p>" : "")
+							+ "<table>"
+							+ letra.map(s => "<tr><td>"+s[0].replace(/\n/g,"<br>").toUpperCase()+"</td><td>"
+											+s[1].replace(/\n/g,"<br>")+"</td></tr>")
+								.reduce((c,a) => c+a, "")
+							+ "</table></div>";
+			}
+			out.innerHTML = output;
+		}
+
+		window.onload = displayText;
+	</script>
+
+	<div id="output">
+	</div>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+]
+
+
+
+
+
+Fortuna Imperatrix Mundi ,"Fortuna, emperatriz del mundo "
+---
+O Fortuna
+Fortune plango vulnera
+
+Primo vere ,En primavera
+----
+Veris leta facies ,La cara jovial de la primavera
+Omnia Sol temperat ,El sol conforta a todos
+Ecce gratum ,Ve complaciente
+
+Uf dem anger ,En la pradera
+----
+Tanz
+Floret silva nobilis
+Chramer, gip die varwe mir
+Reie
+Swaz hie gat umbe
+Were diu werlt alle min
+
+In Taberna ,En la taberna
+-----
+Estuans interius
+Olim lacus colueram
+Ego sum abbas
+In taberna quando sumus
+
+Cour d'amours ,La corte de amor
+------
+Amor volat undique
+Dies, nox et omnia
+Stetit puella
+Circa mea pectora
+Si puer cum puellula
+Veni, veni, venias
+In trutina
+Tempus est iocundum
+Ave formosissima
+
+
+
+
+O Fortuna ,Oh Fortuna
+
+Fortune plango vulnera ,Llanto por las ofensas de Fortuna
+
+Primo vere ,En primavera
+
+Veris leta facies ,La cara jovial de la primavera
+
+Omnia Sol temperat ,El sol conforta a todos
+
+Ecce gratum ,Ve complaciente
+
+Uf dem anger ,En la pradera
+
+"Chramer, gip die varwe mir ",El tendero me da color
+(a) Reie ,Danza circular
+(b) Swaz hie gat umbe ,Ellas van de aquí para allá
+"(c) Chume, chum, geselle min ","Ven, ven mi señora"
+(d) Swaz hie gat umbe ,Ellas van de aquí para allá
+
+Were diu werlt alle min ,Si el mundo fuera mío
+
+Olim lacus colueram ,El cisne asado canta
+
+Ego sum abbas ,Yo soy el abad
+
+In taberna quando sumus ,Cuando estamos en la taberna
+
+Amor volat undique ,El amor vuela por todos lados
+
+"Dies, nox et omnia ","Día, noche y todas las cosas"
+Stetit puella ,Una muchacha se detuvo
+Circa mea pectora ,En mi pecho
+Si puer cum puellula ,Si un muchacho y una muchacha
+
+"Veni, veni, venias ","Ven, ven, ven"
+
+In trutina ,En la balanza
+
+Tempus est iocundum ,Este es un tiempo alegre
+
+Ave formosissima ,"Salve, hermosísima"
+
+
+-->
