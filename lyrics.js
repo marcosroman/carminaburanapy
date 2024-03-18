@@ -1,8 +1,8 @@
 const letras = [
 	{
 		titulo: [
-			"O fortuna",
-			"Oh fortuna"
+			"O Fortuna",
+			"Oh Fortuna"
 		],
 		//comentarios: "Asi era.",
 		letra:
@@ -19,17 +19,17 @@ como la luna`
 			,
 			[
 `semper crescis
-aut decrescis;
+aut decrescis,
 vita detestabilis`
 				,
-`siempre creces
-y decreces;
-vida detestable`
+`siempre creciendo
+y decreciendo,
+detestable vida`
 			]
 			,
 			[
 `nunc obdurat
-et tunc curat
+et tunc curat,
 ludo mentis aciem`
 				,
 `primero oprimes
@@ -41,8 +41,8 @@ juegas con la mente`
 `egestatem,
 potestatem,
 dissolvit ut glaciem.`
-				,
-`pobreza
+,
+`pobreza,
 poder,
 los disuelves como al hielo` 
 			]
@@ -50,31 +50,30 @@ los disuelves como al hielo`
 			[
 `Sors immanis
 et inanis,
-rota tu volubilis,`
-				,
-`Destino monstruoso
-y vacio,
-tu rueda gira,`
+rota tu volubilis`
+,
+`Suerte monstruosa
+y vacia,
+tu rueda gira`
 			]
 			,
 			[
 `status malus,
-vana salus
+vana salus,
 semper dissolubilis,`
 				,
 `eres malevola,
-vana salvacion
-siempre desintegrandose`
+vana salvacion,
+siempre desvaneciendose`
 			]
 			,
 			[
 `obumbrata
 et velata
 michi quoque niteris`
-				,
-`ensombrecido
-y cubierto,
-brillas tambien para mi`
+,
+`Velada y ensombrecida
+te opones tambien a mi`
 			]
 			,
 			[
@@ -82,9 +81,9 @@ brillas tambien para mi`
 dorsum nudum
 fero tui sceleris.`
 				,
-`ahora en el juego,
-con el dorso desnudo
-recibo tu villania`
+`Ahora en el juego,
+con el dorso descubierto
+soporto tu villania`
 			]
 			,
 			[
@@ -92,56 +91,60 @@ recibo tu villania`
 et virtutis
 michi nunc contraria;`
 				,
-`La suerte se pone en mi contra,
-en salud
-y virtud`
-			]
-			,
-			[
+`La suerte,
+en salud y virtud,
+se pone en mi contra,
+`
+]
+,
+[
 `est affectus
 et defectus
 semper in angaria.`
 				,
-`hay sentimiento
+`con sentimiento
 y debilidad,
-siempre encadenados`
-			]
-			,
-			[
+siempre esclavizado`
+]
+,
+[
 `Hac in hora
 sine mora
-corde pulsum tangite;`
-				,
+corde pulsum tangite`
+,
 `En esta hora
 sin demora
-pulsas la cuerda`
-			]
-			,
-			[
+pulsas la vibrante cuerda`
+	]
+		,
+		[
 `quod per sortem
-sternit fortem,
-mecum omnes plangite!`
+sternit fortem`
 				,
-`la cual por destino
-golpea a los fuertes,
-todos lloren conmigo!`
+`que azarosamente
+derriba al fuerte`
+]
+,
+[
+`mecum omnes plangite!`,
+`todos lloren conmigo!`
 			]
 		]
 	}
 	,
 	{
-		titulo: ["Fortune plango vulnera", "Lamento las heridas de la fortuna"],
+		titulo: ["Fortune plango vulnera", "Lamento las heridas de Fortuna"],
 		letra: [
 		[
-`Fortune plango vulnera,
+`Fortune plango vulnera
 stillantibus ocellis
 quod sua michi munera
-subtrahit rebellis.`
+subtrahit rebellis`
 ,
-`Lamento las heridas de la fortuna,
-con lagrimas en los ojos
-lo que una vez me obsequio
-lo retira perversamente`
+`Lamento las heridas de Fortuna
+con lagrimas en los ojos,
+lo que alguna vez me obsequio
+me lo saca perversamente`
 ]
 ,
 [
@@ -150,17 +153,17 @@ fronte capillata
 sed plerumque sequitur
 Occasio calvata.`
 ,
-`Es verdad, esta escrito
+`De verdad, esta escrito
 de frente tiene una fina cabellera
-pero cuando se persigue la oportunidad
+pero cuando la persigue
 ella es calva`
 ]
 ,
 [
 `In Fortune solio
-sederam elatus,
+sederam elatus
 prosperitatis vario
-flore coronatus;`
+flore coronatus`
 ,
 `En el trono de la fortuna
 me sente en lo alto
@@ -170,11 +173,11 @@ flores de prosperidad`
 ,
 [
 `quicquid enim florui
-felix et beatus,
+felix et beatus
 nunc a summo corrui
-gloria privatus.`
+gloria privatus`
 ,
-`Pese a haber florecido
+`Pese a haber florecido,
 feliz y bendecido,
 ahora caigo de la cima
 privado de gloria`
@@ -187,7 +190,7 @@ alter in altum tollitur
 nimis exaltatus`
 ,
 `Gira la rueda de la fortuna
-voy abajo, disminuido;
+voy a lo bajo, disminuido;
 otro es ascendido
 a lo mas alto`
 ]
@@ -198,10 +201,10 @@ caveat ruinam!
 nam sub axe legimus:
 hecubam reginam`
 ,
-`al rey sentado en la punta
+`al rey en la punta sentado
 dejadle temer la ruina!
-porque debajo del eje se lee:
-reina Hecuba`
+ya que bajo el eje de la rueda
+leemos: reina Hecuba`
 ]
 ]
 
@@ -223,7 +226,7 @@ mundo propinatur,`
 victo iam fugatur;`
 				,
 				`el invierno crudo,
-				vencido hace su retirada`]
+				se retira vencido`]
 			,
 			[
 `in vestitu vario
@@ -258,31 +261,8 @@ prata iam serena,`
 silve per amena,
 chorus promit virginum
 iam gaudia millena.`,
-	``],
-
-
-
-
-Reclining in Flora's lap
-Phoebus once again
-smiles, now covered
-with many-colored flowers.
-Zephyr breathes
-nectar-scented breezes.
-Let us rush to compete
-in the race of love.
-			With harp-like tones
-the sweet nightingale sings,
-the meadows now laugh
-covered with many flowers,
-a flock of birds takes flight
-through the pleasant forests,
-a chorus of virgins
-promises a thousand joys.
-		]
-
+	``]]
 	}
 ]
-
 
 
