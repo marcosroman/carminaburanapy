@@ -110,7 +110,7 @@ ul ul {
 	padding-left: 0;
 }
 #letra {
-	margin: 10vh 0;
+	margin: 10vh 0 0 0;
 	padding: 10vh 0;
 	background-color: #d0c4ae;
 }
@@ -135,20 +135,77 @@ ul ul {
 	margin: 1em;
 }
 
-#l0, #l1, #l2, #l3, #l4 {
-	padding: 3em;
-}
 #l0, #l0 td {background-color: #e41e1b;}
 #l0 * {color: black;}
 #l0 p.comentario {color: #e41e1b;}
-
 
 #l1, #l1 td {background-color: #e0761f;}
 #l1 * {color: black;}
 #l1 p.comentario {color: #e0761f;}
 
 #l2, #l2 td {background-color: #d49e2b;}
+#l2 * {color: black;}
+#l2 p.comentario {color: #d49e2b;}
 
+#l3, #l3 td {background-color: #ead015;}
+#l3 * {color: black;}
+#l3 p.comentario {color: #ead015;}
+
+#l4, #l4 td {background-color: #7fda25;}
+#l4 * {color: black;}
+#l4 p.comentario {color: #7fda25;}
+
+#l5, #l5 td {background-color: #41dd22;}
+#l5 * {color: black;}
+#l5 p.comentario {color: #41dd22;}
+
+#l6, #l6 td {background-color: #1de251;}
+#l6 * {color: black;}
+#l6 p.comentario {color: #1de251;}
+
+#l7, #l7 td {background-color: #26d99b;}
+#l7 * {color: black;}
+#l7 p.comentario {color: #26d99b;}
+
+#l8, #l8 td {background-color: #28cad7;}
+#l8 * {color: black;}
+#l8 p.comentario {color: #28cad7;}
+
+#l9, #l9 td {background-color: #2e75d1;}
+#l9 * {color: black;}
+#l9 p.comentario {color: #2e75d1;}
+
+#l10, #l10 td {background-color: #1a21e5;}
+#l10 * {color: black;}
+#l10 p.comentario {color: #1a21e5;}
+
+#l11, #l11 td {background-color: #6918e7;}
+#l11 * {color: black;}
+#l11 p.comentario {color: #6918e7;}
+
+#l12, #l12 td {background-color: #9a0ef1;}
+#l12 * {color: black;}
+#l12 p.comentario {color: #9a0ef1;}
+
+#l13, #l13 td {background-color: #d01be4;}
+#l13 * {color: black;}
+#l13 p.comentario {color: #d01be4;}
+
+#l14, #l14 td {background-color: #da25b2;}
+#l14 * {color: black;}
+#l14 p.comentario {color: #da25b2;}
+
+#l15, #l15 td {background-color: #c73884;}
+#l15 * {color: black;}
+#l15 p.comentario {color: #c73884;}
+
+#l16, #l16 td {background-color: #d32c57;}
+#l16 * {color: black;}
+#l16 p.comentario {color: #d32c57;}
+
+#l0, #l1, #l2, #l3, #l4, #l5, #l6, #l7, #l8, #l9, #l10, #l11, #l12, #l13, #l14, #l15, #l16 {
+  padding: 3em;
+}
 
 .seccion {
 	font-size: x-large;
@@ -162,26 +219,13 @@ ul ul {
 table {
 	width: 100%;
 	border-collapse: collapse;
-	/*margin: 0 5vw;*/
 }
 th, td {
 	width: 50%; /* Set each column width to 50% */
-	/*padding: 8px;
-	border: 1px solid black;
-	 */
 }
 td {
 padding: 1em 0;
-/*margin: 5vh 0;*/
 }
-
-/*
-.output {
-margin: 0 10vw;
-}
-*/
-
-
 
 .scrollable {
 height: 100vh;
@@ -189,6 +233,10 @@ overflow-y: scroll;
 }
 
 .hidden {
-display: none;
+	display: none;
+}
+
+#letra * .disabled {
+	color: gray;
 }
 

@@ -215,7 +215,7 @@ leemos: reina Hecuba`
 	,
 	{
 		titulo: ["Veris leta facies", "La cara jovial de la primavera"],
-		comentarios: `La primavera se abre suavemente con líneas largas, lánguidas, parecidas a cánticos, preparadas para voces al unísono. Febo es el dios sol griego, Flora, la diosa romana de las flores, y Céfiro, el dios del viento del oeste. Filomena, el ruiseñor y su hermana Procne eran princesas que fueron brutalmente abusadas por otro rey de Tracia. Mientras huían de su ira, los dioses los convirtieron en golondrina y ruiseñor.`,
+		comentarios: `La primavera se abre suavemente con líneas largas, lánguidas, parecidas a cánticos, preparadas para voces al unísono. Febo es el dios sol griego, Flora, la diosa romana de las flores, y Céfiro, el dios del viento del oeste. Procne, hermana de Filomena, se caso con Tereus, rey de Tracia. [...] Mientras huían de la ira de Tereus, los dioses los convirtieron en golondrina y ruiseñor.`,
 		letra: [
 			[
 `Veris leta facies
@@ -267,6 +267,73 @@ chorus promit virginum
 iam gaudia millena.`,
 	``]]
 	}
+	,
+	{titulo: ["Omnia sol temperat", "El sol conforta a todos"],
+		letra: [['o','o']]} //
+	,
+	{titulo: ["Ecce Gratum", "Ve complaciente"],
+		comentarios: `Una fanfarria vocal anuncia la llegada de la primavera. Paris (en la última línea) era hijo de Príamo y Hécuba. Por referirse a Venus como la más bella de las diosas se le concedió el amor de la mujer más bella del mundo. Desafortunadamente para él, resultó ser Helena, esposa del rey Menelao de Esparta. París secuestró a Helena, lo cual desencanó la guerra de Troya.`,
+	letra: [['e','e']]}, // ecce gratum
+	{
+		titulo: ['Chramer, gip die varwe mir',''],
+		comentarios: "Mujeres de dudosa virtud anuncian sus encantos a los jóvenes, quienes responden sin palabras mientras consideran la oferta.",
+		letra: [['c','c']]
+	},
+
+
+
+	{
+		titulo: ['Swaz hie gat umbe',''],
+		comentarios: 'Swaz hie gat umbe es una ronda de baile, similar a las danzas folkloricas practicadas en paises europeos en los se gira alrededor de un poste; en este baile -empleando un poco de psicología inversa medieval- las mujeres que bailan aparentemente quieren ir hasta el final verano sin un hombre. Chume es un poco más seductor, si la psicología inversa no funciona. Los hombres se unen en un suave acompañamiento.',
+		letra: [ ['l','l' ]]
+	},
+	{
+		titulo: ['Were diu werlt alle min',''],
+		comentarios: 'La reina en cuestión era Leonor de Aquitania, la más rica, la más Bella, más ambiciosa y sin duda la mujer más notoria del siglo XII. Heredó una gran riqueza a la edad de quince años. Su corte fue un imán para el incipiente movimiento trovador, y allí se desarrollaron las reglas de la caballería medieval. Se casó varias veces: la primera vez con Luis VII de Francia (a quien se unió en la cruzada, liderando una compañía de mujeres con armadura y ropa de hombre, un gran escandalo), despues con Luis Antonio (otro escándalo) y con la misma rapidez se casó con Enrique de Anjou, mucho más joven (un escándalo aún mayor). El ultimo se convirtió en Enrique II de Inglaterra dos años después. Y con otro giro de la Rueda de la Fortuna, su matrimonio dio lugar a sucesos que condujeron a la Carta Magna y la Guerra de los Cien Años.',
+		letra: [ ['l','l' ]]
+	},
+
+
+	{
+		titulo: ['Olim lacus colueram',''],
+		comentarios: 'Una música bastante beoda y desenfocada acompaña este solo de tenor, cantado desde el punto de vista del desafortunado plato principal en cena.',
+		letra: [ ['l','l' ]]
+	},
+	{
+		titulo: ['Ego sum abbas',''],
+		comentarios: '',
+		letra: [ ['l','l' ]]
+	},
+	{
+		titulo: ['In taberna quando sumus',''],
+		comentarios: 'Sin duda la canción para beber más completa de la historia de la música. Termina con una parodia de una frase de la Misa de Réquiem: “Sean confundidos los que nos calumnian y que sus nombres no se registren en el Libro de los Justos”.',
+		letra: [ ['l','l' ]]
+	},
+	{
+		titulo: ['Stetit puella', ''],
+		letra: [ ['l','l' ]]
+	},
+	{
+		titulo: ['Veni, veni, venias',''],
+		comentarios: 'El calor amoroso aumenta un poco en esta configuración para doble coro. Los hombres y mujeres se tientan llamándose cabras, en referencia a la legendaria proclividad del animal a la proceacion.',
+		letra: [ ['l','l' ]]
+	},
+	{
+		titulo: ['In trutina',''],
+		comentarios: '',
+		letra: [ ['l','l' ]]
+	},
+	{
+		titulo: ['Tempus est iocundum',''],
+		comentarios: 'El solo de barítono, el solo de soprano y todo el coro tartamudean anticipando la dicha amorosa.',
+		letra: [ ['l','l' ]]
+	},
+	{
+		titulo: ['Ave formosissima', 'Salve hermosisima'],
+		comentarios: 'Esta grandiosa canción es una parodia del Ave María, utilizando títulos similares para honrar a su amada en lugar de a la Virgen María. Las líneas finales la comparan con Blanchefleur (la heroína de un romance popular del siglo XII), Helena de Troya e incluso la propia Venus.',
+		letra: [ ['l','l' ]]
+	},
 ]
+
 
 
