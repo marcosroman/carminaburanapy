@@ -17,7 +17,7 @@
 		</div>
 		<div class="links">
 			<a href="#intro">La obra</a>
-			<a href="#letras">Letras y traducciones</a>
+			<a href="#letra">Letras y traducciones</a>
 		</div>
 
 		<!--
@@ -125,12 +125,13 @@
 				// 0 for original, 1 for translation
 					output += "<div id=\"l"+i+"\">"
 							+ "<h3><table><tr><td>"+titulo[0].toUpperCase()+"</td><td>"+titulo[1]+"</td></tr></table></h3>"
-							+ (comentarios ? "<p>"+comentarios+"</p>" : "")
 							+ "<table>"
 							+ letra.map(s => "<tr><td>"+s[0].replace(/\n/g,"<br>").toUpperCase()+"</td><td>"
 											+s[1].replace(/\n/g,"<br>")+"</td></tr>")
 								.reduce((c,a) => c+a, "")
-							+ "</table></div>";
+							+ "</table>"
+							+ (comentarios ? "<p class=\"comentario\">"+comentarios+"</p>" : "")
+							+ "</div>";
 			}
 			out.innerHTML = output;
 		}
