@@ -130,17 +130,25 @@ ul ul {
 	margin: 0;
 }
 
-#l0 {
+.comentario {
+	padding: 1em;
+	margin: 1em;
+}
+
+#l0, #l1, #l2, #l3, #l4 {
 	padding: 3em;
-	background-color: rgb(255,0,0,0.3);;
 }
-#l0, #l0 * {
-	/*background-color: rgb(255,0,0,1);;*/
-	color: white;
-}
-#l0 td {
-	background-color: rgb(255,0,0,0.3);;
-}
+#l0, #l0 td {background-color: #e41e1b;}
+#l0 * {color: black;}
+#l0 p.comentario {color: #e41e1b;}
+
+
+#l1, #l1 td {background-color: #e0761f;}
+#l1 * {color: black;}
+#l1 p.comentario {color: #e0761f;}
+
+#l2, #l2 td {background-color: #d49e2b;}
+
 
 .seccion {
 	font-size: x-large;

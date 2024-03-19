@@ -4,7 +4,7 @@ const letras = [
 			"O Fortuna",
 			"Oh Fortuna"
 		],
-		//comentarios: "Asi era.",
+		comentarios: "En esta musica, probablemente la mas conocida de la obra, Orff utiliza un acompañamiento orquestal que se repite sin cesar para sugerir el giro implacable de la rueda de (la) Fortuna.",
 		letra:
 		[
 			[
@@ -134,6 +134,9 @@ derriba al fuerte`
 	,
 	{
 		titulo: ["Fortune plango vulnera", "Lamento las heridas de Fortuna"],
+		comentarios: `En el primer verso, se representa a la diosa Fortuna con cabello en la parte delantera de la cabeza pero ninguno en la parte posterior, lo que significa que puedes aprovechar una oportunidad si la ves venir, pero no una vez que haya pasado.
+Hécuba, cuyo nombre queda escrito abajo (en la rueda), es una lección objetiva sobre los caprichos del destino. Era la esposa del rey Príamo de Troya, y durante la larga Guerra de Troya vio a su marido asesinado, su familia destruida y la ciudad arrasada. Ella misma fue entregada como botín a Odiseo. Pensando en salvar al menos a un miembro de la familia, envió a su hijo menor al rey de Tracia junto con una gran suma de dinero. El rey mató vilmente al niño y robó el dinero. Hécuba se vengó cegando al rey y matando a sus dos hijos. Mientras los hombres del rey la perseguían, los dioses finalmente se compadecieron de Hécuba y la convirtieron en perro, permitiéndole escapar. Se arrojó al mar y se ahogó.`,
+
 		letra: [
 		[
 `Fortune plango vulnera
@@ -153,9 +156,9 @@ fronte capillata
 sed plerumque sequitur
 Occasio calvata.`
 ,
-`De verdad, esta escrito
+`Es verdad aquello escrito
 de frente tiene una fina cabellera
-pero cuando la persigue
+pero cuando se la persigue
 ella es calva`
 ]
 ,
@@ -212,6 +215,7 @@ leemos: reina Hecuba`
 	,
 	{
 		titulo: ["Veris leta facies", "La cara jovial de la primavera"],
+		comentarios: `La primavera se abre suavemente con líneas largas, lánguidas, parecidas a cánticos, preparadas para voces al unísono. Febo es el dios sol griego, Flora, la diosa romana de las flores, y Céfiro, el dios del viento del oeste. Filomena, el ruiseñor y su hermana Procne eran princesas que fueron brutalmente abusadas por otro rey de Tracia. Mientras huían de su ira, los dioses los convirtieron en golondrina y ruiseñor.`,
 		letra: [
 			[
 `Veris leta facies
