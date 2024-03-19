@@ -176,8 +176,8 @@ ul ul {
 #l9 p.comentario {color: #2e75d1;}
 
 #l10, #l10 td {background-color: #1a21e5;}
-#l10 * {color: black;}
-#l10 p.comentario {color: #1a21e5;}
+#l10 * {color: white;}
+#l10 p.comentario {color: white;}
 
 #l11, #l11 td {background-color: #6918e7;}
 #l11 * {color: black;}
