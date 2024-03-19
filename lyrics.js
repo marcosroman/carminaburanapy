@@ -309,6 +309,9 @@ iam gaudia millena.`,
 		comentarios: 'Sin duda la canción para beber más completa de la historia de la música. Termina con una parodia de una frase de la Misa de Réquiem: “Sean confundidos los que nos calumnian y que sus nombres no se registren en el Libro de los Justos”.',
 		letra: [ ['l','l' ]]
 	},
+	{titulo: ["Amor volat indique",""],
+		letra: [ ['a','a'] ]
+	},
 	{
 		titulo: ['Stetit puella', ''],
 		letra: [ ['l','l' ]]
