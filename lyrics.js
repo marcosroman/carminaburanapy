@@ -170,7 +170,7 @@ flore coronatus`
 ,
 `En el trono de la fortuna
 me sente en lo alto
-coronado por
+coronada por
 flores de prosperidad`
 ]
 ,
@@ -181,9 +181,9 @@ nunc a summo corrui
 gloria privatus`
 ,
 `Pese a haber florecido,
-feliz y bendecido,
+feliz y bendecida,
 ahora caigo de la cima
-privado de gloria`
+privada de gloria`
 ]
 ,
 [
@@ -193,7 +193,7 @@ alter in altum tollitur
 nimis exaltatus`
 ,
 `Gira la rueda de la fortuna
-voy a lo bajo, disminuido;
+voy a lo bajo, reducida;
 otro es ascendido
 a lo mas alto`
 ]
@@ -207,7 +207,7 @@ hecubam reginam`
 `al rey en la punta sentado
 dejadle temer la ruina!
 ya que bajo el eje de la rueda
-leemos: reina Hecuba`
+se lee: REINA HECUBA`
 ]
 ]
 
