@@ -143,9 +143,9 @@ ul ul {
 	font-size: smaller;
 }
 
-#l0, #l0 td, #l0 a {background-color: #e41e1b;}
-#l0 * {color: black;}
-#l0 p.comentario {color: #e41e1b;}
+#l0, #l0 td, #l0 a {background-color: red/*#e41e1b*/;}
+#l0 * {color: white;}
+#l0 p.comentario {color: red/*#e41e1b*/;}
 
 #l1, #l1 td, #l1 a {background-color: #e0761f;}
 #l1 * {color: black;}
@@ -188,7 +188,7 @@ ul ul {
 #l10 p.comentario {color: white;}
 
 #l11, #l11 td, #l11 a {background-color: #6918e7;}
-#l11 * {color: black;}
+#l11 * {color: white;}
 #l11 p.comentario {color: #6918e7;}
 
 #l12, #l12 td, #l12 a {background-color: #9a0ef1;}
@@ -227,12 +227,13 @@ ul ul {
 table {
 	width: 100%;
 	border-collapse: collapse;
+	/*border-spacing: 1em;*/
 }
 th, td {
 	width: 50%; /* Set each column width to 50% */
 }
 td {
-padding: 1em 0;
+padding: 0.3em 1em;
 }
 
 .scrollable {
@@ -248,3 +249,25 @@ overflow-y: scroll;
 	color: gray;
 }
 
+#fin {
+	display: flex;
+	min-height: 100vh;
+	/*max-height: 100vh;*/
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+#fin a {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	width: auto;
+}
+#fin * img {
+	max-height: 80vh;
+	max-width: 80vw; 
+	height: auto;
+	width: auto;
+
+}
