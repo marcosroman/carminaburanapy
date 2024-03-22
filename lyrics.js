@@ -422,12 +422,10 @@ const letras = [
 		desde el mar hasta el Rin,`],
 		[`des wolt ih mih darben,
 		des wolt ih mih darben,`,
-		`lo dejaría todo,
+		`Lo dejaría todo,
 		lo dejaría todo,`],
 		[`daz diu chünegin von Engellant
-		lege an minen armen`,
-		`por tener a la Reina de Inglaterra
-		yaciendo entre mis brazos.`]
+		lege an minen armen!`]
 	]
 },
 {
@@ -437,7 +435,7 @@ const letras = [
 	letra: [
 		[`Olim lacus colueram,
 		olim pulcher extiteram,
-		dum cignus ego fueram.`,
+		dum cignus ego fueram`,
 		`Una vez viví en los lagos,
 		Una vez fui hermoso
 		cuando era un cisne.`],
@@ -447,9 +445,9 @@ const letras = [
 		`¡Pobre! Pobre,
 		todo negro ahora
 		¡y asándose ferozmente!`],
-		[`Girat, regirat garcifer;
-		me rogus urit fortiter;
-		propinat me nunc dapifer.`,
+		[`Girat, regirat garcifer
+		me rogus urit fortiter
+		propinat me nunc dapifer`,
 		`Gira y vuelve a girar el asador;
 		Ardo ferozmente sobre la pira,
 		Ahora el servidor me ofrece a los invitados.`],
@@ -459,12 +457,12 @@ const letras = [
 		`¡Pobre! Pobre,
 		todo negro ahora
 		¡y asándose ferozmente!`],
-		[`Nunc in scutella iaceo,
+		[`Nunc in scutella iaceo
 		et volitare nequeo
-		dentes fredentes video.`,
+		dentes fredentes video`,
 		`Ahora yaciendo en un plato,
 		sin poder volar,
-		veo dientes crujir.`],
+		veo dientes crujir`],
 		[`Miser! Miser
 		Modo niger
 		et ustus fortiter!`,
@@ -615,8 +613,8 @@ const letras = [
 		Y así estaremos necesitados.`],
 		[`Qui nos rodunt confundantur
 		et cum iustis non scribantur!`,
-		`Que sean confundidos los que nos calumnian
-		y no figuren en el libro de los justos!`]
+		`Sean confundidos los que nos calumnian y que
+		sus nombres no se registren en el Libro de los Justos.`]
 	]
 },
 {
