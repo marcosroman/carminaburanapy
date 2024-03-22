@@ -9,124 +9,76 @@ const letras = [
 	letra: [
 		[`O Fortuna,
 		velut luna
-		statu variabilis,`
-		,
+		statu variabilis,`,
 		`Oh Fortuna,
 		cambias
-		como la luna`
-		]
-		,
+		como la luna`],
 		[`semper crescis
 		aut decrescis,
-		vita detestabilis`
-		,
-		`siempre creciendo
+		vita detestabilis`,
+		`Siempre creciendo
 		y decreciendo,
-		detestable vida`
-		]
-		,
-		[
-		`nunc obdurat
+		detestable vida`],
+		[`nunc obdurat
 		et tunc curat,
-		ludo mentis aciem`
-		,
-		`primero oprimes
+		ludo mentis aciem`,
+		`Primero oprimes
 		y luego alivias,
-		juegas con la mente`
-		]
-		,
-		[
-		`egestatem
+		juegas con la mente`],
+		[`egestatem
 		potestatem
-		dissolvit ut glaciem`
-		,
+		dissolvit ut glaciem`,
 		`Pobreza,
 		Poder,
-		los disuelves como al hielo` 
-		]
-		,
-		[
-		`Sors immanis
+		los disuelves como al hielo`],
+		[`Sors immanis
 		et inanis
-		rota tu volubilis`
-		,
+		rota tu volubilis`,
 		`Suerte monstruosa
 		y vacía,
-		tu rueda gira`
-		]
-		,
-		[
-		`status malus
+		tu rueda gira`],
+		[`status malus
 		vana salus
-		semper dissolubilis`
-		,
+		semper dissolubilis`,
 		`Eres malevola.
 		Salvación vana,
-		siempre se desvanece`
-		]
-		,
-		[
-		`obumbrata
+		siempre se desvanece`],
+		[`obumbrata
 		et velata
-		michi quoque niteris`
-		,
-		`Velada y ensombrecida,
-		te opones también a mi`
-		]
-		,
-		[
-		`nunc per ludum
+		michi quoque niteris`,
+		`Velada
+		y ensombrecida,
+		te opones también a mi`],
+		[`nunc per ludum
 		dorsum nudum
-		fero tui sceleris`
-		,
+		fero tui sceleris`,
 		`Ahora en el juego,
 		con el dorso descubierto
-		soporto tu villanía`
-		]
-		,
-		[
-		`Sors salutis
+		soporto tu villanía`],
+		[`Sors salutis
 		et virtutis
-		michi nunc contraria`
-		,
+		michi nunc contraria`,
 		`La suerte,
 		en salud y virtud,
-		se pone en mi contra,
-		`
-		]
-		,
-		[
-		`est affectus
+		se pone en mi contra,`],
+		[`est affectus
 		et defectus
-		semper in angaria.`
-		,
-		`con sentimiento
+		semper in angaria.`,
+		`Con sentimiento
 		y debilidad,
-		siempre esclavizado`
-		]
-		,
-		[
-		`Hac in hora
+		esclavizado siempre`],
+		[`Hac in hora
 		sine mora
-		corde pulsum tangite`
-		,
+		corde pulsum tangite`,
 		`En esta hora,
 		sin demora,
-		tocas el latido del corazón`
-		]
-		,
-		[
-		`quod per sortem
-		sternit fortem`
-		,
+		tocas el latido del corazón`],
+		[`quod per sortem
+		sternit fortem`,
 		`Que azarosamente
-		derriba al fuerte`
-		]
-		,
-		[
-		`mecum omnes plangite!`,
-		`TODOS LLOREN CONMIGO!`
-		]
+		derriba al fuerte`],
+		[`mecum omnes plangite!`,
+		`TODOS LLOREN CONMIGO!`]
 	]
 }
 ,
@@ -139,72 +91,51 @@ const letras = [
 		[`Fortune plango vulnera
 		stillantibus ocellis
 		quod sua michi munera
-		subtrahit rebellis`
-		,
+		subtrahit rebellis`,
 		`Lamento las heridas de Fortuna
 		con lágrimas en los ojos.
 		Lo que alguna vez me obsequió
-		me lo saca perversamente`
-		]
-		,
-		[
-		`Verum est, quod legitur
+		me lo saca perversamente`],
+		[`Verum est, quod legitur
 		fronte capillata
 		sed plerumque sequitur
-		Occasio calvata`
-		,
+		Occasio calvata`,
 		`Es verdad aquello escrito:
 		de frente tiene una fina cabellera,
 		pero cuando se la persigue
-		ella es calva`
-		]
-		,
-		[
-		`In Fortune solio
+		ella es calva`],
+		[`In Fortune solio
 		sederam elatus
 		prosperitatis vario
-		flore coronatus`
-		,
+		flore coronatus`,
 		`En el trono de Fortuna
 		me senté a lo alto
 		coronada por
-		flores de prosperidad`
-		]
-		,
-		[
-		`quicquid enim florui
+		flores de prosperidad`],
+		[`quicquid enim florui
 		felix et beatus
 		nunc a summo corrui
-		gloria privatus`
-		,
+		gloria privatus`,
 		`Pese a haber florecido,
 		feliz y bendecida,
 		ahora caigo de la cima
-		privada de gloria`
-		]
-		,
-		[
-		`fortune rota volvitur
+		privada de gloria`],
+		[`fortune rota volvitur
 		descendo minoratus
 		alter in altum tollitur
-		nimis exaltatus`
-		,
+		nimis exaltatus`,
 		`Fortuna hace girar la rueda:
 		reducida, voy para abajo;
 		otro es ascendido
-		a lo más alto`
-		]
-		,
+		a lo más alto`],
 		[`rex sedet in vertice
 		caveat ruinam!
 		nam sub axe legimus:
-		hecubam reginam`
-		,
+		hecubam reginam`,
 		`Al rey en la punta sentado
 		¡Dejadle temer la ruina!
 		Ya que abajo, en la rueda,
-		se lee: REINA HÉCUBA`
-		]
+		se lee: REINA HÉCUBA`]
 	]
 }
 ,
