@@ -425,7 +425,7 @@ const letras = [
 },
 {
 	fg: 'black', bg: '#41dd22',
-	titulo: ['Chramer, gip die varwe mir',''],
+	titulo: ['Chramer, gip die varwe mir','Mercader, dame rubor'],
 	comentarios: "Mujeres de dudosa virtud anuncian sus encantos a los jóvenes, quienes responden sin palabras mientras consideran la oferta.",
 	letra: [
 		[`Chramer, gip die varwe mir,
@@ -436,7 +436,7 @@ const letras = [
 		Seht mich an,
 		jungen man!
 		Lat mich iu gevallen!`,
-		`Comerciante, dame rubor
+		`Mercader, dame rubor
 		para enrojecer mis mejillas,
 		y así lograr que los jóvenes
 		me amen, quieran o no.
@@ -479,14 +479,14 @@ const letras = [
 },
 {
 	fg: 'black', bg: '#1de251',
-	titulo: ['Swaz hie gat umbe',''],
-	comentarios: 'Swaz hie gat umbe es una ronda de baile, similar a las danzas folkloricas practicadas en paises europeos en los se gira alrededor de un poste; en este baile -empleando un poco de psicología inversa medieval- las mujeres que bailan aparentemente quieren ir hasta el final verano sin un hombre. Chume es un poco más seductor, por si la psicología inversa no funciona. Los hombres se unen en un suave acompañamiento.',
+	titulo: ['Swaz hie gat umbe','Aquellas que bailan rondando'],
+	comentarios: 'Swaz hie gat umbe es una ronda de baile de mujeres, similar a las danzas folkloricas practicadas en paises europeos en los se gira alrededor de un poste. Las mujeres que bailan aparentemente quieren ir hasta el final verano sin un hombre. En realidad, lo que hacen es expresar un deseo que es exactamente lo contrario de lo que realmente quieren; la creencia detrás de esta extraña práctica es que Fortuna afecta nuestra vida cotidiana y, siendo tan perversa, siempre produce lo contrario de lo que una persona declara desear. Chume es un poco más seductor, por si la psicología inversa no funciona. Los hombres se unen en un suave acompañamiento.',
 	letra: [
 		[`Swaz hie gat umbe
 		daz sint allez megede
 		die wellent ân man
 		allen diesen sumer gan!`,
-		`Las que bailan girando
+		`Aquellas que bailan rondando
 		son todas doncellas
 		que quieren estar sin un hombre
 		¡todo el verano!`],
@@ -510,26 +510,26 @@ const letras = [
 },
 {
 	bg: '#26d99b',
-	titulo: ['Were diu werlt alle min',''],
+	titulo: ['Were diu werlt alle min', 'Si el mundo fuera todo mío'],
 	comentarios: 'La reina en cuestión era Leonor de Aquitania, la más rica, la más bella, más ambiciosa y sin duda la mujer más notoria del siglo XII. Heredó una gran riqueza a la edad de quince años. Su corte fue un imán para el incipiente movimiento trovador, y allí se desarrollaron las reglas de la caballería medieval. Se casó varias veces: la primera vez con Luis VII de Francia (a quien se unió en la cruzada, liderando una compañía de mujeres con armadura y ropa de hombre, un gran escandalo), despues con Luis Antonio (otro escándalo) y con la misma rapidez se casó con Enrique de Anjou, mucho más joven (un escándalo aún mayor). El ultimo se convirtió en Enrique II de Inglaterra dos años después. Y con otro giro de la Rueda de la Fortuna, su matrimonio dio lugar a sucesos que condujeron a la Carta Magna y la Guerra de los Cien Años.',
 	letra: [
 		[`Were diu werlt alle min
-		von dem mere unze an den Rin,
-		des wolt ih mih darben,
-		des wolt ih mih darben,
-		daz diu chünegin von Engellant
+		von dem mere unze an den Rin`,
+		`Si el mundo fuera todo mío,
+		desde el mar hasta el Rin,`],
+		[`des wolt ih mih darben,
+		des wolt ih mih darben,`,
+		`lo dejaría todo,
+		lo dejaría todo,`],
+		[`daz diu chünegin von Engellant
 		lege an minen armen`,
-		`Si mundo fuera todo mío,
-		desde el mar hasta el Rin,
-		lo dejaría todo,
-		lo dejaría todo,
-		por tener a la Reina de Inglaterra
+		`por tener a la Reina de Inglaterra
 		yaciendo entre mis brazos.`]
 	]
 },
 {
 	bg: '#28cad7',
-	titulo: ['Olim lacus colueram',''],
+	titulo: ['Olim lacus colueram','El cisne asado canta'],
 	comentarios: 'Una música bastante beoda y desenfocada acompaña este solo de tenor, cantado desde el punto de vista del desafortunado plato principal en cena.',
 	letra: [
 		[`Olim lacus colueram,
@@ -572,7 +572,7 @@ const letras = [
 },
 {
 	bg: '#2e75d1',
-	titulo: ['Ego sum abbas',''],
+	titulo: ['Ego sum abbas','Yo soy el abad'],
 	comentarios: '',
 	letra: [
 		[`Ego sum abbas Cucaniensis
@@ -599,7 +599,7 @@ const letras = [
 },
 {
 	bg: '#1a21e5',
-	titulo: ['In taberna quando sumus',''],
+	titulo: ['In taberna quando sumus','Cuando estamos en la taberna'],
 	comentarios: 'Sin duda la canción para beber más completa de la historia de la música. Termina con una parodia de una frase de la Misa de Réquiem: “Sean confundidos los que nos calumnian y que sus nombres no se registren en el Libro de los Justos”.',
 	letra: [ 
 		[`In taberna quando sumus
@@ -727,14 +727,14 @@ const letras = [
 },
 {
 	bg: '#6918e7',
-	titulo: ["Amor volat indique",""],
+	titulo: ["Amor volat indique","El amor vuela por doquier"],
 	letra: [
 		[`Amor volat undique,
 		captus est libidine.
 		Iuvenes, iuvencule
 		coniunguntur merito.`,
-		`Cupido vuela por todas partes,
-		arrebatado por el deseo.
+		`El amor vuela por doquier
+		preso por la lujuria.
 		Hombres y mujeres jóvenes
 		se juntan, como debe ser`],
 		[`Siqua sine socio,
@@ -751,14 +751,14 @@ const letras = [
 },
 {
 	bg: '#9a0ef1',
-	titulo: ['Stetit puella', ''],
+	titulo: ['Stetit puella', 'Una muchacha se detuvo'],
 	comentarios: '<3',
 	letra: [ 
 		[`Stetit puella
 		rufa tunica
 		si quis eam tetigit
 		tunica crepuit`,
-		`La muchacha se paró
+		`Una muchacha se detuvo
 		con su túnica roja;
 		si alguien la tocaba,
 		la túnica crujía.`],
@@ -766,7 +766,7 @@ const letras = [
 		tamquam rosula
 		facie spleduit
 		os eius floruit.`,
-		`La muchacha se paró
+		`Una muchacha se detuvo
 		como una rosa;
 		su rostro resplandecía,
 		su boca florecía.`]
@@ -774,7 +774,7 @@ const letras = [
 },
 {
 	bg: '#d01be4',
-	titulo: ['Veni, veni, venias',''],
+	titulo: ['Veni, veni, venias','Ven, ven, oh, ven'],
 	comentarios: 'El calor amoroso aumenta un poco en esta configuración para doble coro. Los hombres y mujeres se tientan llamándose cabras, en referencia a la legendaria proclividad del animal a la proceacion.',
 	letra: [
 		[`Veni, veni, venias,
@@ -805,33 +805,33 @@ const letras = [
 },
 {
 	bg: '#da25b2',
-	titulo: ['In trutina',''],
+	titulo: ['In trutina','En la balanza'],
 	comentarios: '',
 	letra: [
 		[`In trutina mentis dubia,
 		fluctuant contraria,
-		lascivus amor et pudicitia.
-		Sed eligo quod video,
+		lascivus amor et pudicitia.`,
+		`En la balanza de la mente dudosa,
+		fluctúan opuestos,
+		el amor lascivo y la castidad.`],
+		[`Sed eligo quod video,
 		collum iugo prebeo:
 		ad iugum tamen suave transeo.`,
-		`En la balanza de la mente dudosa,
-		fluctúan cosas opuestas,
-		el amor lascivo y la castidad.
-		Pero elijo lo que veo,
+		`Pero elijo lo que veo,
 		ofrezco mi cuello al yugo:
 		aunque dulce, me someto al yugo.`]
 	]
 },
 {
 	bg: '#c73884',
-	titulo: ['Tempus est iocundum',''],
+	titulo: ['Tempus est iocundum', 'Es tiempo de alegría'],
 	comentarios: 'El solo de barítono, el solo de soprano y todo el coro tartamudean anticipando la dicha amorosa.',
 	letra: [
 		[`Tempus est iocundum,
 		o virgines,
 		modo congaudete,
 		vos iuvenes.`,
-		`Este es el tiempo de alegría,
+		`Es tiempo de alegría,
 		Oh doncellas,
 		Alegraos con ellos,
 		jóvenes.`],
