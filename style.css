@@ -256,18 +256,17 @@ overflow-y: scroll;
 	justify-content: center;
 	align-content: center;
 	flex-direction: column;
+	margin: auto;
 }
 #fin a {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	flex-direction: column;
+	/*flex-direction: column;*/
 	width: auto;
+	text-align: center;
 }
 #fin * img {
 	max-height: 80vh;
 	max-width: 80vw; 
-	height: auto;
-	width: auto;
-
 }

@@ -116,18 +116,13 @@
 		<script type="text/javascript" src="lyrics.js"></script>
 		<script>
 			function displayLyrics() {
-							let out = document.getElementById("letras");
+							function outputLyric(i) {
+								let titulo = letras[i]["titulo"];
+								let comentarios = letras[i]["comentarios"];
+								let letra = letras[i]["letra"];
 
-							let n = letras.length;
-
-							let output = "";
-							for (let i=0; i<n; i++) {
-											let titulo = letras[i]["titulo"];
-											let comentarios = letras[i]["comentarios"];
-											let letra = letras[i]["letra"];
-
-											// 0 for original, 1 for translation
-											output += "<div id=\"l"+i+"\">"
+								// index 0 for original, 1 for translation (in
+								return "<div id=\"l"+i+"\">"
 												+ "<h3><table><tr><td>"+titulo[0].toUpperCase()+"</td><td>"+titulo[1]+"</td></tr></table></h3>"
 												+ "<table>"
 												+ letra.map(s => "<tr><td>"+s[0].replace(/\n/g,"<br>").toUpperCase()+"</td><td>"
@@ -136,37 +131,29 @@
 												+ "</table>"
 												+ (comentarios ? "<p class=\"comentario\">"+comentarios+"</p>" : "")
 												+ "<a href=\"#letra\">volver</a></div>";
-										}
-							out.innerHTML = output;
+
+							}
+
+							function outputGradient(c1, c2, h) {
+								return '<div style="min-height: '+h+'vh; background: linear-gradient('+c1+','+c2+')"></div>';
+							}
+
+							let n = letras.length;
+
+							let output = "";
+							for (let i=0; i<n; i++) {
+								output += outputLyric(i); 								
+								if (i<n-1) {
+									output += outputGradient(letras[i]["bg"],letras[i+1]["bg"],100);
+								}
+							}
+							output += outputGradient(letras[n-1]["bg"],letras[0]["bg"],400);
+							output += outputLyric(0);
+							output+= outputGradient(letras[0]["bg"],'black',100);
+							document.getElementById("letras").innerHTML = output;
 						}
 
-			function addDivScrolling() {
-							let portada = document.getElementById('portada');
-							portada.addEventListener('scroll', () => {
-											var scrollTop = portada.scrollTop;
-											var scrollHeight = portada.scrollHeight;
-											var clientHeight = portada.clientHeight;
-
-											console.log({scrollTop, scrollHeight, clientHeight});
-
-											if (scrollTop + clientHeight >= scrollHeight) {
-															document.getElementById('intro').classList.remove('hidden');
-															document.getElementById('portada').classList.add('hidden');
-														}
-										});
-						}
-
-			function loadFunctions() {
-							var hora = (new Date()).getHours();
-							/*if (20 <= hora && hora <= 21) {
-											document.body.innerHTML = "<div style=\"display: flex; justify-content: center; align-content: center; min-height: 100vh; flex-direction: column; text-align: center;\">Es momento de ver la obra</div>";
-										} else {*/
-														displayLyrics();
-													//}
-							//addDivScrolling();
-						}
-
-																											window.onload = loadFunctions;
+						window.onload = displayLyrics;
 		</script>
 
 		<div id="fin">

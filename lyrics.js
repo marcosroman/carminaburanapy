@@ -1,5 +1,6 @@
 const letras = [
 {
+	fg: 'white', bg: 'red',
 	titulo: [
 	"O Fortuna",
 	"Oh Fortuna"
@@ -130,6 +131,7 @@ const letras = [
 }
 ,
 {
+	fg: 'black', bg: '#e0761f',
 	titulo: ["Fortune plango vulnera", "Lamento las heridas de Fortuna"],
 	comentarios: `En el primer verso, se representa a la diosa Fortuna con cabello en la parte delantera de la cabeza pero ninguno en la parte posterior, lo que significa que puedes aprovechar una oportunidad si la ves venir, pero no una vez que ha pasado.
 	Hécuba, cuyo nombre queda escrito abajo (en la rueda), es una lección objetiva sobre los caprichos del destino. Era la esposa del rey Príamo de Troya, y durante la larga Guerra de Troya vio a su marido asesinado, su familia destruida y la ciudad arrasada. Ella misma fue entregada como botín a Odiseo. Pensando en salvar al menos a un miembro de la familia, envió a su hijo menor al rey de Tracia junto con una gran suma de dinero. El rey mató vilmente al niño y robó el dinero. Hécuba se vengó cegando al rey y matando a sus dos hijos. Mientras los hombres del rey la perseguían, los dioses finalmente se compadecieron de Hécuba y la convirtieron en perro, permitiéndole escapar. Se arrojó al mar y se ahogó.`,
@@ -208,6 +210,7 @@ const letras = [
 }
 ,
 {
+	fg: 'black', bg: '#d49e2b',
 	titulo: ["Veris leta facies", "La cara jovial de la primavera"],
 	comentarios: `La primavera se abre suavemente con líneas largas, lánguidas, parecidas a cánticos, preparadas para voces al unísono. Febo es el dios sol griego, Flora, la diosa romana de las flores, y Céfiro, el dios del viento del oeste. Procne, hermana de Filomena, se caso con Tereus, (otro) rey de Tracia. [...] Mientras huían de la ira de Tereus, los dioses las convirtieron en golondrina y ruiseñor.`,
 	letra: [
@@ -279,6 +282,7 @@ const letras = [
 }
 ,
 {
+	fg: 'black', bg: '#ead015',
 	titulo: ["Omnia sol temperat", "El sol conforta a todos"],
 	letra: [
 		[`Omnia sol temperat
@@ -336,6 +340,7 @@ const letras = [
 }
 ,
 {
+	fg: 'black', bg: ' #7fda25',
 	titulo: ["Ecce Gratum", "Ve complaciente"],
 	comentarios: `Una fanfarria vocal anuncia la llegada de la primavera. Paris (en la última línea) era hijo de Príamo y Hécuba. Por referirse a Venus como la más bella de las diosas se le concedió el amor de la mujer más bella del mundo. Desafortunadamente para él, resultó ser Helena, esposa del rey Menelao de Esparta. París secuestró a Helena, lo cual desencanó la guerra de Troya.`,
 	letra: [
@@ -413,6 +418,7 @@ const letras = [
 	]
 },
 {
+	fg: 'black', bg: '#41dd22',
 	titulo: ['Chramer, gip die varwe mir',''],
 	comentarios: "Mujeres de dudosa virtud anuncian sus encantos a los jóvenes, quienes responden sin palabras mientras consideran la oferta.",
 	letra: [
@@ -466,6 +472,7 @@ const letras = [
 	]
 },
 {
+	fg: 'black', bg: '#1de251',
 	titulo: ['Swaz hie gat umbe',''],
 	comentarios: 'Swaz hie gat umbe es una ronda de baile, similar a las danzas folkloricas practicadas en paises europeos en los se gira alrededor de un poste; en este baile -empleando un poco de psicología inversa medieval- las mujeres que bailan aparentemente quieren ir hasta el final verano sin un hombre. Chume es un poco más seductor, si la psicología inversa no funciona. Los hombres se unen en un suave acompañamiento.',
 	letra: [
@@ -496,6 +503,7 @@ const letras = [
 	]
 },
 {
+	bg: '#26d99b',
 	titulo: ['Were diu werlt alle min',''],
 	comentarios: 'La reina en cuestión era Leonor de Aquitania, la más rica, la más bella, más ambiciosa y sin duda la mujer más notoria del siglo XII. Heredó una gran riqueza a la edad de quince años. Su corte fue un imán para el incipiente movimiento trovador, y allí se desarrollaron las reglas de la caballería medieval. Se casó varias veces: la primera vez con Luis VII de Francia (a quien se unió en la cruzada, liderando una compañía de mujeres con armadura y ropa de hombre, un gran escandalo), despues con Luis Antonio (otro escándalo) y con la misma rapidez se casó con Enrique de Anjou, mucho más joven (un escándalo aún mayor). El ultimo se convirtió en Enrique II de Inglaterra dos años después. Y con otro giro de la Rueda de la Fortuna, su matrimonio dio lugar a sucesos que condujeron a la Carta Magna y la Guerra de los Cien Años.',
 	letra: [
@@ -514,12 +522,13 @@ const letras = [
 	]
 },
 {
+	bg: '#28cad7',
 	titulo: ['Olim lacus colueram',''],
 	comentarios: 'Una música bastante beoda y desenfocada acompaña este solo de tenor, cantado desde el punto de vista del desafortunado plato principal en cena.',
 	letra: [
 		[`Olim lacus colueram,
-olim pulcher extiteram,
-dum cignus ego fueram.`,
+		olim pulcher extiteram,
+		dum cignus ego fueram.`,
 		`Una vez viví en los lagos,
 		Una vez fui hermoso
 		cuando era un cisne.`],
@@ -556,6 +565,7 @@ dum cignus ego fueram.`,
 	]
 },
 {
+	bg: '#2e75d1',
 	titulo: ['Ego sum abbas',''],
 	comentarios: '',
 	letra: [
@@ -582,6 +592,7 @@ dum cignus ego fueram.`,
 	]
 },
 {
+	bg: '#1a21e5',
 	titulo: ['In taberna quando sumus',''],
 	comentarios: 'Sin duda la canción para beber más completa de la historia de la música. Termina con una parodia de una frase de la Misa de Réquiem: “Sean confundidos los que nos calumnian y que sus nombres no se registren en el Libro de los Justos”.',
 	letra: [ 
@@ -709,30 +720,36 @@ dum cignus ego fueram.`,
 	]
 },
 {
+	bg: '#6918e7',
 	titulo: ["Amor volat indique",""],
 	letra: [ ['a','a'] ]
 },
 {
+	bg: '#9a0ef1',
 	titulo: ['Stetit puella', ''],
 	comentarios: '<3',
 	letra: [ ['l','l' ]]
 },
 {
+	bg: '#d01be4',
 	titulo: ['Veni, veni, venias',''],
 	comentarios: 'El calor amoroso aumenta un poco en esta configuración para doble coro. Los hombres y mujeres se tientan llamándose cabras, en referencia a la legendaria proclividad del animal a la proceacion.',
 	letra: [ ['l','l' ]]
 },
 {
+	bg: '#da25b2',
 	titulo: ['In trutina',''],
 	comentarios: '',
 	letra: [ ['l','l' ]]
 },
 {
+	bg: '#c73884',
 	titulo: ['Tempus est iocundum',''],
 	comentarios: 'El solo de barítono, el solo de soprano y todo el coro tartamudean anticipando la dicha amorosa.',
 	letra: [ ['l','l' ]]
 },
 {
+	bg: '#d32c57',
 	titulo: ['Ave formosissima', 'Salve hermosisima'],
 	comentarios: 'Esta grandiosa canción es una parodia del Ave María, utilizando títulos similares para honrar a su amada en lugar de a la Virgen María. Las líneas finales la comparan con Blanchefleur (la heroína de un romance popular del siglo XII), Helena de Troya e incluso la propia Venus.',
 	letra: [ ['l','l' ]]
