@@ -253,7 +253,7 @@ overflow-y: scroll;
 
 #fin {
 	display: flex;
-	min-height: 100vh;
+	min-height: 90vh;
 	/*max-height: 100vh;*/
 	justify-content: center;
 	align-content: center;
