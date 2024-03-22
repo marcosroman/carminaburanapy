@@ -425,7 +425,9 @@ const letras = [
 		`Lo dejaría todo,
 		lo dejaría todo,`],
 		[`daz diu chünegin von Engellant
-		lege an minen armen!`]
+		lege an minen armen!`,
+		`Si pudiera tener a la Reina de Inglaterra
+		yaciendo entre mis brazos!`]
 	]
 },
 {
