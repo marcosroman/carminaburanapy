@@ -970,17 +970,17 @@ function displayLyrics() {
 	let n = letras.length;
 
 	let output = "";
-	output += outputGradient('#d0c4ae', letras[0]["bg"], 50);
+	output += outputGradient('#d0c4ae', letras[0]["bg"], 20);
 	for (let i=0; i<n; i++) {
 		output += outputLyric(i, true); 								
 		if (i<n-1) {
 			output += outputGradient(letras[i]["bg"],letras[i+1]["bg"],100);
 		}
 	}
-	output += outputGradient(letras[n-1]["bg"],letras[0]["bg"],400);
+	output += outputGradient(letras[n-1]["bg"],letras[n-1]["bg"],200);
+	output += outputGradient(letras[n-1]["bg"],letras[0]["bg"],20);
 	output += outputLyric(0, false);
 	output += outputGradient(letras[0]["bg"],'black',100);
 	document.getElementById("letras").innerHTML = output;
 }
-
 
