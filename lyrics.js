@@ -462,15 +462,14 @@ const letras = [
 		also freudenriche!
 		Ich wil dir sin untertan
 		durch din liebe immer sicherliche.
+
 		Seht mich an,
 		jungen man!
-
 		Lat mich iu gevallen!`,
-		`Salve, oh mundo
+		`Ay de ti, oh mundo,
 		¡tan rico en alegrías!
 		te seré obediente
-		por los placeres que te ofrecen
-		vado.
+		para asegurar tu amor siempre.
 
 		¡Mírame, joven!
 		¡Déjame complacerte!`],
