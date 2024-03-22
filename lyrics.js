@@ -112,7 +112,7 @@ const letras = [
 		,
 		`En esta hora,
 		sin demora,
-		tocas el latido del corzón`
+		tocas el latido del corazón`
 		]
 		,
 		[
