@@ -543,7 +543,7 @@ const letras = [
 		post hec bibunt ter pro vivis,
 		quater pro Christianis cunctis,
 		quinquies pro fidelibus defunctis,
-		sexies pro soroibus vanis,
+		sexies pro sororibus vanis,
 		septies pro militibus silvanis,`,
 		`Primero por el comerciante de vinos,
 		del que beben los libertinos;
@@ -561,14 +561,14 @@ const letras = [
 		tredecies pro iter argentibus.`,
 		`Octavo, beben por los hermanos descarriados,
 		Noveno, beben por los monjes dispersos,
-		Décimo, beben por los marineros,
-		Undécimo, beben por los riñones,
-		Duodécimo, beben por el penitente,
+		Décimo, beben por los navegantes,
+		Undécimo, beben por los discordantes,
+		Duodécimo, beben por el penitentes,
 		Decimotercero, beben por los viajeros.`],
 		[`Tam pro papa quam pro rege
 		bibunt omnes sine lege`,
 		`Tanto el papa como el rey,
-		beben sin parar.`],
+		beben todos sin ley.`],
 		[`Bibit hera, bibit herus,
 		bibit miles, bibit clerus,
 		bibit ille, bibit illa,
@@ -603,16 +603,16 @@ const letras = [
 		beben cientos, beben miles.`],
 		[`Parum sexcente nummate
 		durant, cum immoderate`,
-		`Seiscientas monedas apenas son suficientes,
+		`Seiscientas monedas apenas duran
 		cuando se usan inmoderadamente`],
 		[`Bibunt omnes sine meta
 		Quamvis bibant mente leta,
 		sic nos rodunt omnes gentes,
 		et sic erimus egentes.`,
-		`Todos beben sin medida,
-		aunque lo hagan con alegría en mente,
-		todos nos calumnian
-		y así seremos pobres.`],
+		`Todos beben sin límite.
+		Aunque lo hagan con alegría en mente,
+		Así todas las gentes nos calumnian,
+		Y así estaremos necesitados.`],
 		[`Qui nos rodunt confundantur
 		et cum iustis non scribantur!`,
 		`Que sean confundidos los que nos calumnian
