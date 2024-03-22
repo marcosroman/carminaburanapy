@@ -289,14 +289,16 @@ const letras = [
 		purus et subtilis,
 		novo mundo reserat
 		faciem Aprillis,
+
 		ad amorem properat
 		animus herilis
 		et iocundis imperat
 		deus puerilis`,
-		`El sol calienta todo,
+		`El sol conforta a todos,
 		Puro y gentil,
 		Una vez más revela al mundo
 		la cara de abril,
+
 		El alma del hombre
 		es llamada al amor
 		Y las alegrías las
@@ -306,6 +308,7 @@ const letras = [
 		in solemni vere
 		et veris auctoritas
 		jubet nos gaudere;
+
 		vias prebet solitas
 		et in tuo vere
 		fides est et probitas
@@ -314,6 +317,7 @@ const letras = [
 		en la solemne primavera
 		La autoridad de la verdad
 		nos llevan a regocijarnos.
+
 		Nos lleva por caminos ya conocidos
 		Y en tu tiempo primaveral
 		hay fe y honestidad
@@ -755,7 +759,7 @@ const letras = [
 		`La muchacha se paró
 		con su túnica roja;
 		si alguien la tocaba,
-		la túnica crujía.`]
+		la túnica crujía.`],
 		[`Stetit puella
 		tamquam rosula
 		facie spleduit
@@ -792,7 +796,7 @@ const letras = [
 		omnibus formosior,
 		semper in te glorior!`,
 		`Más roja que la rosa,
-		más blanco que el lirio,
+		más blanca que el lirio,
 		más hermosa que todas las demás,
 		¡Siempre me gloriaré en ti!`]
 	]
@@ -813,7 +817,7 @@ const letras = [
 		el amor lascivo y la castidad.
 		Pero elijo lo que veo,
 		ofrezco mi cuello al yugo:
-		aunque dulce, paso bajo el yugo.`]
+		aunque dulce, me someto al yugo.`]
 	]
 },
 {
@@ -893,5 +897,40 @@ const letras = [
 }
 ]
 
+function displayLyrics() {
+	function outputLyric(i) {
+		let titulo = letras[i]["titulo"];
+		let comentarios = letras[i]["comentarios"];
+		let letra = letras[i]["letra"];
+
+		// index 0 for original, 1 for translation (in
+		return "<div id=\"l"+i+"\">"
+			+ "<h3><table><tr><td>"+titulo[0].toUpperCase()+"</td><td>"+titulo[1]+"</td></tr></table></h3>"
+			+ "<table>"
+			+ letra.map(s => "<tr><td>"+s[0].replace(/\n/g,"<br>").toUpperCase()+"</td><td>"+s[1].replace(/\n/g,"<br>")+"</td></tr>")
+			.reduce((c,a) => c+a, "")
+			+ "</table>"
+			+ (comentarios ? "<p class=\"comentario\">"+comentarios+"</p>" : "")
+			+ "<a href=\"#letra\">volver</a></div>";
+	}
+
+	function outputGradient(c1, c2, h) {
+		return '<div style="min-height: '+h+'vh; background: linear-gradient('+c1+','+c2+')"></div>';
+	}
+
+	let n = letras.length;
+
+	let output = "";
+	for (let i=0; i<n; i++) {
+		output += outputLyric(i); 								
+		if (i<n-1) {
+			output += outputGradient(letras[i]["bg"],letras[i+1]["bg"],100);
+		}
+	}
+	output += outputGradient(letras[n-1]["bg"],letras[0]["bg"],400);
+	output += outputLyric(0);
+	output += outputGradient(letras[0]["bg"],'black',100);
+	document.getElementById("letras").innerHTML = output;
+}
 
 

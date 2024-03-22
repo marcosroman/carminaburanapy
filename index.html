@@ -110,50 +110,12 @@
 		</div>
 
 		<div id="letras">
-			<p style="text-align: center">Cargando letras...</p>
+			<p style="text-align: center; min-height: 100vh; display: flex; align-content: center; justify-content: center; flex-flow: column;">Cargando letras...</p>
 		</div>
 
 		<script type="text/javascript" src="lyrics.js"></script>
 		<script>
-			function displayLyrics() {
-							function outputLyric(i) {
-								let titulo = letras[i]["titulo"];
-								let comentarios = letras[i]["comentarios"];
-								let letra = letras[i]["letra"];
-
-								// index 0 for original, 1 for translation (in
-								return "<div id=\"l"+i+"\">"
-												+ "<h3><table><tr><td>"+titulo[0].toUpperCase()+"</td><td>"+titulo[1]+"</td></tr></table></h3>"
-												+ "<table>"
-												+ letra.map(s => "<tr><td>"+s[0].replace(/\n/g,"<br>").toUpperCase()+"</td><td>"
-																+s[1].replace(/\n/g,"<br>")+"</td></tr>")
-												.reduce((c,a) => c+a, "")
-												+ "</table>"
-												+ (comentarios ? "<p class=\"comentario\">"+comentarios+"</p>" : "")
-												+ "<a href=\"#letra\">volver</a></div>";
-
-							}
-
-							function outputGradient(c1, c2, h) {
-								return '<div style="min-height: '+h+'vh; background: linear-gradient('+c1+','+c2+')"></div>';
-							}
-
-							let n = letras.length;
-
-							let output = "";
-							for (let i=0; i<n; i++) {
-								output += outputLyric(i); 								
-								if (i<n-1) {
-									output += outputGradient(letras[i]["bg"],letras[i+1]["bg"],100);
-								}
-							}
-							output += outputGradient(letras[n-1]["bg"],letras[0]["bg"],400);
-							output += outputLyric(0);
-							output+= outputGradient(letras[0]["bg"],'black',100);
-							document.getElementById("letras").innerHTML = output;
-						}
-
-						window.onload = displayLyrics;
+			window.onload = displayLyrics;
 		</script>
 
 		<div id="fin">
