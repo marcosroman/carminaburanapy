@@ -709,7 +709,7 @@ const letras = [
 		carece de toda alegría;
 		guarda en lo más profundo de la noche
 		su corazón bajo custodia:
-		se convierte en una cosa muy amarga.`]
+		se convierte en una cosa amarguísima.`]
 	]
 },
 {
