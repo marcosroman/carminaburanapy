@@ -541,9 +541,9 @@ const letras = [
 		[`Miser! Miser
 		Modo niger
 		et ustus fortiter!`,
-		`¡Miserable de mí!
-		Ahora negro
-		¡y asándome ferozmente!`],
+		`¡Pobre! Pobre,
+		ahora negro
+		¡y asándose ferozmente!`],
 		[`Girat, regirat garcifer;
 		me rogus urit fortiter;
 		propinat me nunc dapifer.`,
@@ -553,9 +553,9 @@ const letras = [
 		[`Miser! Miser
 		Modo niger
 		et ustus fortiter!`,
-		`¡Miserable de mí!
-		Ahora negro
-		¡y asándome ferozmente!`],
+		`¡Pobre! Pobre,
+		ahora negro
+		¡y asándose ferozmente!`],
 		[`Nunc in scutella iaceo,
 		et volitare nequeo
 		dentes fredentes video.`,
@@ -565,9 +565,9 @@ const letras = [
 		[`Miser! Miser
 		Modo niger
 		et ustus fortiter!`,
-		`¡Miserable de mí!
-		Ahora negro
-		¡y asándome ferozmente!`]
+		`¡Pobre! Pobre,
+		ahora negro
+		¡y asándose ferozmente!`]
 	]
 },
 {
@@ -830,48 +830,93 @@ const letras = [
 		[`Tempus est iocundum,
 		o virgines,
 		modo congaudete,
-		vos iuvenes.`,``],
+		vos iuvenes.`,
+		`Este es el tiempo de alegría,
+		Oh doncellas,
+		Alegraos con ellos,
+		jóvenes.`],
 		[`O, totus floreo,
 		iam amore virginali
 		totus ardeo,
 		novus, novus amor est,
-		quo pereo.`,``],
+		quo pereo!`,
+		`Oh, totalmente florecido,
+		Estoy ardiendo completamente
+		con mi primer amor,
+		es un amor nuevo
+		¡del cual estoy muriendo!`],
 		[`Mea me confortat
 		promissio,
 		mea me deportat
-		negatio.`,``],
+		negatio.`,
+		`Estoy exaltada
+		por mi promesa,
+		Estoy abatida
+		por mi rechazo.`],
 		[`O, totus floreo,
 		iam amore virginali
 		totus ardeo,
 		novus, novus amor est,
-		quo pereo.`,``],
+		quo pereo.`,
+		`Oh, totalmente florecido,
+		Estoy ardiendo completamente
+		con mi primer amor,
+		es un amor nuevo
+		¡del cual estoy muriendo!`],
 		[`Tempore brumali
 		vir patiens,
 		animo vernali
-		lasciviens.`,``],
+		lasciviens.`,
+		`En invierno
+		un hombre es paciente,
+		pero con el aliento de la primavera
+		se vuelve amoroso.`],
 		[`O, totus floreo,
 		iam amore virginali
 		totus ardeo,
 		novus, novus amor est,
-		quo pereo.`,``],
+		quo pereo!`,
+		`Oh, totalmente florecido,
+		Estoy ardiendo completamente
+		con mi primer amor,
+		es un amor nuevo
+		¡del cual estoy muriendo!`],
 		[`Mea mecum ludit
 		virginitas,
 		mea me detrudit
-		simplicitas.`,``],
+		simplicitas.`,
+		`Mi virginidad
+		me guía,
+		mi inocencia
+		me detiene.`],
 		[`O, totus floreo,
 		iam amore virginali
 		totus ardeo,
 		novus, novus amor est,
-		quo pereo.`,``],
+		quo pereo.`,
+		`Oh, totalmente florecido,
+		Estoy ardiendo completamente
+		con mi primer amor,
+		es un amor nuevo
+		¡del cual estoy muriendo!`],
 		[`Veni domicella,
 		cum gaudio,
 		veni, veni, pulchra,
-		iam pereo.`,``],
+		iam pereo.`,
+		`Ven, mi amada,
+		con alegría,
+		ven, ven, mi bella,
+		ya estoy muriendo.`],
 		[`O, totus floreo,
 		iam amore virginali
 		totus ardeo,
 		novus, novus amor est,
-		quo pereo.`,``]
+		quo pereo.`,
+		`Oh, totalmente florecido,
+		Estoy ardiendo completamente
+		con mi primer amor,
+		es un amor nuevo
+		¡del cual estoy muriendo!`]
 	]
 },
 {
@@ -900,7 +945,7 @@ const letras = [
 ]
 
 function displayLyrics() {
-	function outputLyric(i) {
+	function outputLyric(i, isCommentShown) {
 		let titulo = letras[i]["titulo"];
 		let comentarios = letras[i]["comentarios"];
 		let letra = letras[i]["letra"];
@@ -912,7 +957,9 @@ function displayLyrics() {
 			+ letra.map(s => "<tr><td>"+s[0].replace(/\n/g,"<br>").toUpperCase()+"</td><td>"+s[1].replace(/\n/g,"<br>")+"</td></tr>")
 			.reduce((c,a) => c+a, "")
 			+ "</table>"
-			+ (comentarios ? "<p class=\"comentario\">"+comentarios+"</p>" : "")
+			+ (isCommentShown ?
+					(comentarios ? "<p class=\"comentario\">"+comentarios+"</p>" : "")
+					: "")
 			+ "<a href=\"#letra\">volver</a></div>";
 	}
 
@@ -923,14 +970,15 @@ function displayLyrics() {
 	let n = letras.length;
 
 	let output = "";
+	output += outputGradient('#d0c4ae', letras[0]["bg"], 50);
 	for (let i=0; i<n; i++) {
-		output += outputLyric(i); 								
+		output += outputLyric(i, true); 								
 		if (i<n-1) {
 			output += outputGradient(letras[i]["bg"],letras[i+1]["bg"],100);
 		}
 	}
 	output += outputGradient(letras[n-1]["bg"],letras[0]["bg"],400);
-	output += outputLyric(0);
+	output += outputLyric(0, false);
 	output += outputGradient(letras[0]["bg"],'black',100);
 	document.getElementById("letras").innerHTML = output;
 }
