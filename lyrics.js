@@ -782,7 +782,7 @@ const letras = [
 		ad iugum tamen suave transeo.`,
 		`Pero elijo lo que veo,
 		ofrezco mi cuello al yugo:
-		aunque dulce, me someto al yugo.`]
+		al final, paso al yugo dulcemente.`]
 	]
 },
 {
