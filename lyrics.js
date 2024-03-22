@@ -287,41 +287,35 @@ const letras = [
 		[`Omnia sol temperat
 		purus et subtilis,
 		novo mundo reserat
-		faciem Aprillis,
-
-		ad amorem properat
-		animus herilis
-		et iocundis imperat
-		deus puerilis`,
+		faciem Aprillis`,
 		`El sol conforta a todos,
 		Puro y gentil,
 		Una vez más revela al mundo
-		la cara de abril,
-
-		El alma del hombre
+		la cara de abril,`],
+		[`ad amorem properat
+		animus herilis
+		et iocundis imperat
+		deus puerilis`,
+		`El alma del hombre
 		es llamada al amor
 		Y las alegrías las
-		dicta el niño-dios`
-		],
+		dicta el niño-dios`],
 		[`Rerum tanta novitas
 		in solemni vere
 		et veris auctoritas
-		jubet nos gaudere;
-
-		vias prebet solitas
+		jubet nos gaudere`,
+		`Con tantas novedades
+		en la solemne primavera
+		La autoridad de la verdad
+		nos llevan a regocijarnos.`],
+		[`vias prebet solitas
 		et in tuo vere
 		fides est et probitas
 		tuum retinere`,
-		`Con tantas cosas novedosas
-		en la solemne primavera
-		La autoridad de la verdad
-		nos llevan a regocijarnos.
-
-		Nos lleva por caminos ya conocidos
+		`Nos lleva por caminos ya conocidos
 		Y en tu tiempo primaveral
 		hay fe y honestidad
-		en mantener lo tuyo`
-		],
+		en mantener lo tuyo`],
 		[`Ama me fideliter!
 		fidem meam nota:
 		de corde totaliter
@@ -338,86 +332,72 @@ const letras = [
 		[`quisquis amat taliter
 		volvitur in rota`,
 		`Quien ame tanto así
-		...hace girar la rueda`]
+		...hace girar la rueda...`]
 	]
 }
 ,
 {
 	fg: 'black', bg: ' #7fda25',
-	titulo: ["Ecce Gratum", "Ve complaciente"],
+	titulo: ["Ecce Gratum", "He aquí lo grato"],
 	comentarios: `Una fanfarria vocal anuncia la llegada de la primavera. Paris (en la última línea) era hijo de Príamo y Hécuba. Por referirse a Venus como la más bella de las diosas se le concedió el amor de la mujer más bella del mundo. Desafortunadamente para él, resultó ser Helena, esposa del rey Menelao de Esparta. París secuestró a Helena, lo cual desencanó la guerra de Troya.`,
 	letra: [
 		[`Ecce gratum
 		et optatum
-		ver reducit gaudia,
-
-		purpuratum
-		floret pratum,
-		sol serenat omnia.
-
-		Iam iam cedant tristia!
+		ver reducit gaudia`,
+		`He aquí lo grato
+		y deseado,
+		la primavera trae alegría`],
+		[`purpuratum
+		floret pratum
+		sol serenat omnia`,
+		`púrpura,
+     el prado florece,
+     el sol todo lo ilumina`],
+		[`Iam iam cedant tristia!
 		Estas redit
 		nunc recedit
-		Hyemis sevitia`
-		,
-		`He aquí lo agradable
-		y deseado,
-		la primavera trae alegría
-
-		el prado florece
-		adornado,
-		el sol todo lo ilumina.
-
-		¡Ya, ya que se vayan las tristezas!
+		Hyemis sevitia`,
+		`¡Ya, que se vayan ya las tristezas!
 		El verano está aquí,
-		ahora se aleja
-		la ferocidad del invierno.`
-		],
+		la ferocidad del
+		invierno ahora se aleja`],
 		[`Iam liquescit
 		et decrescit
-		grando, nix et cetera
-
-		Bruma fugit,
+		grando, nix et cetera`,
+		`Ahora se derrite
+		y disminuyen
+		el granizo, la nieve y demás;`],
+		[`Bruma fugit,
 		et iam sugit
-		Ver Estatis ubera
-
-		illi mens est misera
+		Ver Estatis ubera`,
+		`La niebla huye,
+		y la primavera mama
+		del seno estival`],
+		[`illi mens est misera
 		qui nec vivit
 		nec lascivit
 		sub Estatis dextera`,
-		`Ahora se derrite
-		y disminuye
-		el granizo, la nieve y demás;
-
-		La niebla huye,
-		y la primavera mama
-		del seno estival;
-
-		Miserables las almas
+		`Miserables las almas
 		que no viven
 		ni se deleitan
-		bajo la diestra del Verano.`],
+		bajo la diestra del Verano`],
 		[`Gloriantur
 		et letantur
-		in melle dulcedinis
-
-		qui conantur
+		in melle dulcedinis`,
+		`Gloriémonos
+		y regocijémonos
+		en la miel de la dulzura`],
+		[`qui conantur
 		ut utantur
-		premio Cupidinis
-
-		simus jussu Cypridis
+		premio Cupidinis`,
+		`Aquellos que se esfuerzan
+		por hacer uso
+		del premio de Cupido:`],
+		[`simus jussu Cypridis
 		gloriantes
 		et letantes
 		pares esse Paridis`,
-		`Gloriémonos
-		y regocijémonos
-		en la miel de la dulzura
-
-		Aquellos que se esfuerzan
-		por utilizar
-		el premio de Cupido:
-
-		seamos, por mandato de Cipris,
+		`Seamos, por mandato de Cipris,
 		gloriosos y alegres,
 		iguales a Paris.`]
 	]
@@ -430,49 +410,43 @@ const letras = [
 		[`Chramer, gip die varwe mir,
 		die min wengel roete,
 		damit ich die jungen man
-		an ir dank der minnen liebe noete.
-
-		Seht mich an,
-		jungen man!
-		Lat mich iu gevallen!`,
+		an ir dank der minnen liebe noete.`,
 		`Mercader, dame rubor
 		para enrojecer mis mejillas,
 		y así lograr que los jóvenes
-		me amen, quieran o no.
-
-		¡Mírame, joven!
+		me amen, quieran o no.`],
+		[`Seht mich an,
+		jungen man!
+		Lat mich iu gevallen!`,
+		`¡Mírame, joven!
 		¡Déjame complacerte!`],
 		[`Minnet, tugentlich man,
 		minnecliche frouwen!
 		minne tuot iu hoch gemout
 		unde lat iuch in hohen eren
-		schouwen.
-
-		Seht mich an,
-		jungen man!
-		Lat mich iu gevallen!`,
+		schouwen.`,
 		`Hombres virtuosos, entregad vuestro amor
 		¡A mujeres encantadoras!
 		El amor ennoblece vuestro espíritu
-		y os hace brillar con gran honor.
-
-		¡Mírame, joven!
+		y os hace brillar con gran honor.`],
+		[`Seht mich an,
+		jungen man!
+		Lat mich iu gevallen!`,
+		`¡Mírame, joven!
 		¡Déjame complacerte!`],
 		[`Wol dir, werlt, daz du bist
 		also freudenriche!
 		Ich wil dir sin untertan
-		durch din liebe immer sicherliche.
-
-		Seht mich an,
-		jungen man!
-		Lat mich iu gevallen!`,
+		durch din liebe immer sicherliche.`,
 		`Ay de ti, oh mundo,
 		¡tan rico en alegrías!
-		te seré obediente
-		para asegurar tu amor siempre.
-
-		¡Mírame, joven!
-		¡Déjame complacerte!`],
+		Te seré obediente
+		para asegurar tu amor siempre.`],
+		[`Seht mich an,
+		jungen man!
+		Lat mich iu gevallen!`,
+		`¡Mírame, joven!
+		¡Déjame complacerte!`]
 	]
 },
 {
@@ -540,7 +514,7 @@ const letras = [
 		Modo niger
 		et ustus fortiter!`,
 		`¡Pobre! Pobre,
-		ahora negro
+		todo negro ahora
 		¡y asándose ferozmente!`],
 		[`Girat, regirat garcifer;
 		me rogus urit fortiter;
@@ -552,7 +526,7 @@ const letras = [
 		Modo niger
 		et ustus fortiter!`,
 		`¡Pobre! Pobre,
-		ahora negro
+		todo negro ahora
 		¡y asándose ferozmente!`],
 		[`Nunc in scutella iaceo,
 		et volitare nequeo
@@ -564,7 +538,7 @@ const letras = [
 		Modo niger
 		et ustus fortiter!`,
 		`¡Pobre! Pobre,
-		ahora negro
+		todo negro ahora
 		¡y asándose ferozmente!`]
 	]
 },
@@ -603,18 +577,16 @@ const letras = [
 		[`In taberna quando sumus
 		non curamus quid sit humus,
 		sed ad ludum properamus,
-		cui semper insudamus.
-
-		Quid agatur in taberna
-		ubi nummus est pincerna,
-		hoc est opus ut queratur,
-		si quid loquar, audiatur.`,
+		cui semper insudamus.`,
 		`Cuando estamos en la taberna
 		nos despreocupamos del mundo,
 		Nos entregamos al juego
-		que nos hace sudar siempre.
-
-		Lo que pasa en la taberna,
+		que nos hace sudar siempre.`],
+		[`Quid agatur in taberna
+		ubi nummus est pincerna,
+		hoc est opus ut queratur,
+		si quid loquar, audiatur.`,
+		`Lo que pasa en la taberna,
 		donde el dinero es anfitrión,
 		es algo que podrías preguntar,
 		así que escucha lo que digo.`],
@@ -623,20 +595,17 @@ const letras = [
 		Sed in ludo qui morantur,
 		ex his quidam denudantur,
 		quidam ibi vestiuntur,
-		quidam saccis induuntur.
-
-		Ibi nullus timet mortem
-		sed pro Baccho mittunt sortem.`,
+		quidam saccis induuntur.`,
 		`Algunos juegan, algunos beben,
 		algunos viven indiscretamente.
 		Pero entre los que juegan,
 		algunos quedan desnudos,
 		otros ganan ropa nueva,
-		y otros van vestidos con sacos.
-
-		Aquí nadie teme a la muerte
-		sino que apuestan a su suerte por Baco.`
-		],
+		y otros van vestidos con sacos.`],
+		[`Ibi nullus timet mortem
+		sed pro Baccho mittunt sortem.`,
+		`Aquí nadie teme a la muerte
+		sino que apuestan a su suerte por Baco.`],
 		[`Primo pro nummata vini
 		ex hac bibunt libertini;
 		semel bibunt pro captivis,
@@ -658,16 +627,16 @@ const letras = [
 		decies pro navigantibus,
 		undecies pro discordantibus,
 		duodecies pro penitentibus,
-		tredecies pro iter argentibus.
-		Tam pro papa quam pro rege
-		bibunt omnes sine lege.`,
+		tredecies pro iter argentibus.`,
 		`Octavo, beben por los hermanos descarriados,
 		Noveno, beben por los monjes dispersos,
 		Décimo, beben por los marineros,
 		Undécimo, beben por los riñones,
 		Duodécimo, beben por el penitente,
-		Decimotercero, beben por los viajeros.
-		Tanto el papa como el rey,
+		Decimotercero, beben por los viajeros.`],
+		[`Tam pro papa quam pro rege
+		bibunt omnes sine lege`,
+		`Tanto el papa como el rey,
 		beben sin parar.`],
 		[`Bibit hera, bibit herus,
 		bibit miles, bibit clerus,
@@ -677,15 +646,14 @@ const letras = [
 		bibit albus, bibit niger,
 		bibit constans, bibit vagus,
 		bibit rudis, bibit magus,`,
-		`La señora bebe, el amo bebe,
+		`La ama bebe, el amo bebe,
 		el soldado bebe, el cura bebe,
 		el hombre bebe, la mujer bebe,
 		el sirviente bebe con la criada,
 		el rápido bebe, el lento bebe,
 		el blanco bebe, el negro bebe,
 		bebe el constante, bebe el vago,
-		el paleto bebe, el sabio bebe,
-		`],
+		el ignorante bebe, el sabio bebe,`],
 		[`Bibit pauper et egrotus,
 		bibit exsul et ignotus,
 		bibit puer, bibit canus,
@@ -696,31 +664,28 @@ const letras = [
 		bibunt centum, bibunt mille.`,
 		`El pobre y el enfermo beben,
 		beben el exiliado y el extranjero,
-		el niño bebe, el viejo bebe,
-		el obispo y el diácono beben,
-		la hermana bebe, el hermano bebe,
-		la vieja bebe, la madre bebe,
-		éste bebe y aquel bebe,
+		el joven bebe, el anciano bebe,
+		bebe el prelado y el decano,
+		bebe la hermana, bebe el hermano,
+		bebe la anciana, bebe la madre,
+		bebe esta, bebe aquel,
 		beben cientos, beben miles.`],
 		[`Parum sexcente nummate
-		durant, cum immoderate
-
-		Bibunt omnes sine meta
+		durant, cum immoderate`,
+		`Seiscientas monedas apenas son suficientes,
+		cuando se usan inmoderadamente`],
+		[`Bibunt omnes sine meta
 		Quamvis bibant mente leta,
 		sic nos rodunt omnes gentes,
-		et sic erimus egentes.
-
-		Qui nos rodunt confundantur
-		et cum iustis non scribantur.`,
-		`Seiscientas monedas apenas son suficientes,
-		porque todos beben sin moderarse
-
-		Aunque beben alegremente,
-		todos nos calumnian,
-		y así nos volvemos necesitados.
-
-		Que sean confundidos los que nos calumnian
-		y no figuren en el libro de los justos`]
+		et sic erimus egentes.`,
+		`Todos beben sin medida,
+		aunque lo hagan con alegría en mente,
+		todos nos calumnian
+		y así seremos pobres.`],
+		[`Qui nos rodunt confundantur
+		et cum iustis non scribantur!`,
+		`Que sean confundidos los que nos calumnian
+		y no figuren en el libro de los justos!`]
 	]
 },
 {
@@ -740,11 +705,11 @@ const letras = [
 		tenet noctis infima sub intimo
 		cordis in custodia:
 		fit res amarissima`,
-		`La chica sin amante
-		se pierde todas las alegrías;
-		ella guarda la noche oscura
-		en lo más íntimo de su corazón:
-		es algo muy amargo`]
+		`Quien esté sin compañía,
+		carece de toda alegría;
+		guarda en lo más profundo de la noche
+		su corazón bajo custodia:
+		se convierte en una cosa muy amarga.`]
 	]
 },
 {
@@ -838,11 +803,11 @@ const letras = [
 		totus ardeo,
 		novus, novus amor est,
 		quo pereo!`,
-		`Oh, totalmente florecido,
-		Estoy ardiendo completamente
-		con mi primer amor,
-		es un amor nuevo
-		¡del cual estoy muriendo!`],
+		`Oh, florezco todo,
+		ya con amor virginal,
+		ardo todo,
+		nuevo, nuevo amor es,
+		¡en el cual perezco!`],
 		[`Mea me confortat
 		promissio,
 		mea me deportat
@@ -856,29 +821,29 @@ const letras = [
 		totus ardeo,
 		novus, novus amor est,
 		quo pereo.`,
-		`Oh, totalmente florecido,
-		Estoy ardiendo completamente
-		con mi primer amor,
-		es un amor nuevo
-		¡del cual estoy muriendo!`],
+		`Oh, florezco toda,
+		ya con amor virginal,
+		ardo toda,
+		nuevo, nuevo amor es,
+		¡en el cual perezco!`],
 		[`Tempore brumali
 		vir patiens,
 		animo vernali
 		lasciviens.`,
 		`En invierno
 		un hombre es paciente,
-		pero con el aliento de la primavera
+		con el aliento de la primavera
 		se vuelve amoroso.`],
 		[`O, totus floreo,
 		iam amore virginali
 		totus ardeo,
 		novus, novus amor est,
 		quo pereo!`,
-		`Oh, totalmente florecido,
-		Estoy ardiendo completamente
-		con mi primer amor,
-		es un amor nuevo
-		¡del cual estoy muriendo!`],
+		`Oh, florezco todo,
+		ya con amor virginal,
+		ardo todo,
+		nuevo, nuevo amor es,
+		¡en el cual perezco!`],
 		[`Mea mecum ludit
 		virginitas,
 		mea me detrudit
@@ -892,11 +857,11 @@ const letras = [
 		totus ardeo,
 		novus, novus amor est,
 		quo pereo.`,
-		`Oh, totalmente florecido,
-		Estoy ardiendo completamente
-		con mi primer amor,
-		es un amor nuevo
-		¡del cual estoy muriendo!`],
+		`Oh, florezco toda,
+		ya con amor virginal,
+		ardo toda,
+		nuevo, nuevo amor es,
+		¡en el cual perezco!`],
 		[`Veni domicella,
 		cum gaudio,
 		veni, veni, pulchra,
@@ -904,29 +869,29 @@ const letras = [
 		`Ven, mi amada,
 		con alegría,
 		ven, ven, mi bella,
-		ya estoy muriendo.`],
+		ya muero.`],
 		[`O, totus floreo,
 		iam amore virginali
 		totus ardeo,
 		novus, novus amor est,
 		quo pereo.`,
-		`Oh, totalmente florecido,
-		Estoy ardiendo completamente
-		con mi primer amor,
-		es un amor nuevo
-		¡del cual estoy muriendo!`]
+		`Oh, florezco toda,
+		ya con amor virginal,
+		ardo toda,
+		nuevo, nuevo amor es,
+		¡en el cual perezco!`]
 	]
 },
 {
 	bg: '#d32c57',
-	titulo: ['Ave formosissima', 'Salve hermosisima'],
+	titulo: ['Ave formosissima', 'Salve hermosísima'],
 	comentarios: 'Esta grandiosa canción es una parodia del Ave María, utilizando títulos similares para honrar a su amada en lugar de a la Virgen María. Las líneas finales la comparan con Blanchefleur (la heroína de un romance popular del siglo XII), Helena de Troya e incluso la propia Venus.',
 	letra: [
 		[`Ave formosissima
 		gema pretiosa
 		ave decus virginum
 		virgo gloriosa`,
-		`Salve, la más bella,
+		`Salve, hermosísima,
 		joya preciosa,
 		Salve, orgullo entre las vírgenes,
 		virgen gloriosa`],
@@ -958,7 +923,7 @@ function displayLyrics() {
 			+ (isCommentShown ?
 					(comentarios ? "<p class=\"comentario\">"+comentarios+"</p>" : "")
 					: "")
-			+ "<a href=\"#letra\">volver</a></div>";
+			+ "<br><a href=\"#letra\">volver</a></div>";
 	}
 
 	function outputGradient(c1, c2, h) {
