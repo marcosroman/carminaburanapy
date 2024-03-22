@@ -389,9 +389,11 @@ const letras = [
 		`Ahora se derrite
 		y disminuye
 		el granizo, la nieve y demás;
+
 		La niebla huye,
 		y la primavera mama
 		del seno estival;
+
 		Miserables las almas
 		que no viven
 		ni se deleitan
@@ -478,7 +480,7 @@ const letras = [
 {
 	fg: 'black', bg: '#1de251',
 	titulo: ['Swaz hie gat umbe',''],
-	comentarios: 'Swaz hie gat umbe es una ronda de baile, similar a las danzas folkloricas practicadas en paises europeos en los se gira alrededor de un poste; en este baile -empleando un poco de psicología inversa medieval- las mujeres que bailan aparentemente quieren ir hasta el final verano sin un hombre. Chume es un poco más seductor, si la psicología inversa no funciona. Los hombres se unen en un suave acompañamiento.',
+	comentarios: 'Swaz hie gat umbe es una ronda de baile, similar a las danzas folkloricas practicadas en paises europeos en los se gira alrededor de un poste; en este baile -empleando un poco de psicología inversa medieval- las mujeres que bailan aparentemente quieren ir hasta el final verano sin un hombre. Chume es un poco más seductor, por si la psicología inversa no funciona. Los hombres se unen en un suave acompañamiento.',
 	letra: [
 		[`Swaz hie gat umbe
 		daz sint allez megede
