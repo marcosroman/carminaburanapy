@@ -722,38 +722,167 @@ const letras = [
 {
 	bg: '#6918e7',
 	titulo: ["Amor volat indique",""],
-	letra: [ ['a','a'] ]
+	letra: [
+		[`Amor volat undique,
+		captus est libidine.
+		Iuvenes, iuvencule
+		coniunguntur merito.`,
+		`Cupido vuela por todas partes,
+		arrebatado por el deseo.
+		Hombres y mujeres jóvenes
+		se juntan, como debe ser`],
+		[`Siqua sine socio,
+		caret omni gaudio;
+		tenet noctis infima sub intimo
+		cordis in custodia:
+		fit res amarissima`,
+		`La chica sin amante
+		se pierde todas las alegrías;
+		ella guarda la noche oscura
+		en lo más íntimo de su corazón:
+		es algo muy amargo`]
+	]
 },
 {
 	bg: '#9a0ef1',
 	titulo: ['Stetit puella', ''],
 	comentarios: '<3',
-	letra: [ ['l','l' ]]
+	letra: [ 
+		[`Stetit puella
+		rufa tunica;
+		si quis eam tetigit,
+		tunica crepuit.`,
+		`Una chica se paró
+		con un vestido rojo;
+		si alguien lo tocó,
+		crujió.`],
+		[`Stetit puella
+		tamquam rosula;
+		facie spleduit,
+		os eius floruit.`,
+		`Una chica se paró
+		como una pequeña rosa;
+		su rostro estaba radiante
+		y su boca en flor.`]
+	]
 },
 {
 	bg: '#d01be4',
 	titulo: ['Veni, veni, venias',''],
 	comentarios: 'El calor amoroso aumenta un poco en esta configuración para doble coro. Los hombres y mujeres se tientan llamándose cabras, en referencia a la legendaria proclividad del animal a la proceacion.',
-	letra: [ ['l','l' ]]
+	letra: [
+		[`Veni, veni, venias,
+		ne me mori facias,
+		hyrca, hyrce, nazaza,
+		trillirivos!`,
+		`Ven, ven, oh, ven,
+		no me hagas morir,
+		macho cabrío, cabra, nazaza,
+		trillirivos!`],
+		[`Pulchra tibi facies,
+		oculorum acies,
+		capillorum series,
+		o quam clara species!`,
+		`Hermosa es tu cara,
+		el brillo de tus ojos,
+		las trenzas de tu cabello,
+		¡Qué hermosa apariencia!`],
+		[`Rosa rubicundior,
+		lilio candidior,
+		omnibus formosior,
+		semper in te glorior!`,
+		`Más roja que la rosa,
+		más blanco que el lirio,
+		más hermosa que todas las demás,
+		¡Siempre me gloriaré en ti!`]
+	]
 },
 {
 	bg: '#da25b2',
 	titulo: ['In trutina',''],
 	comentarios: '',
-	letra: [ ['l','l' ]]
+	letra: [
+		[`In trutina mentis dubia,
+		fluctuant contraria,
+		lascivus amor et pudicitia.
+		Sed eligo quod video,
+		collum iugo prebeo:
+		ad iugum tamen suave transeo.`,
+		`En la balanza de la mente dudosa,
+		fluctúan cosas opuestas,
+		el amor lascivo y la castidad.
+		Pero elijo lo que veo,
+		ofrezco mi cuello al yugo:
+		aunque dulce, paso bajo el yugo.`]
+	]
 },
 {
 	bg: '#c73884',
 	titulo: ['Tempus est iocundum',''],
 	comentarios: 'El solo de barítono, el solo de soprano y todo el coro tartamudean anticipando la dicha amorosa.',
-	letra: [ ['l','l' ]]
+	letra: [
+		[`Tempus est iocundum,
+		o virgines,
+		modo congaudete,
+		vos iuvenes.`,``],
+		[`O, totus floreo,
+		iam amore virginali
+		totus ardeo,
+		novus, novus amor est,
+		quo pereo.`,``],
+		[`Mea me confortat
+		promissio,
+		mea me deportat
+		negatio.`,``],
+		[`O, totus floreo,
+		iam amore virginali
+		totus ardeo,
+		novus, novus amor est,
+		quo pereo.`,``],
+		[`Tempore brumali
+		vir patiens,
+		animo vernali
+		lasciviens.`,``],
+		[`O, totus floreo,
+		iam amore virginali
+		totus ardeo,
+		novus, novus amor est,
+		quo pereo.`,``],
+		[`Mea mecum ludit
+		virginitas,
+		mea me detrudit
+		simplicitas.`,``],
+		[`O, totus floreo,
+		iam amore virginali
+		totus ardeo,
+		novus, novus amor est,
+		quo pereo.`,``],
+		[`Veni domicella,
+		cum gaudio,
+		veni, veni, pulchra,
+		iam pereo.`,``],
+		[`O, totus floreo,
+		iam amore virginali
+		totus ardeo,
+		novus, novus amor est,
+		quo pereo.`,``]
+	]
 },
 {
 	bg: '#d32c57',
 	titulo: ['Ave formosissima', 'Salve hermosisima'],
 	comentarios: 'Esta grandiosa canción es una parodia del Ave María, utilizando títulos similares para honrar a su amada en lugar de a la Virgen María. Las líneas finales la comparan con Blanchefleur (la heroína de un romance popular del siglo XII), Helena de Troya e incluso la propia Venus.',
-	letra: [ ['l','l' ]]
-},
+	letra: [
+		[`Ave formosissima,
+		gema pretiosa,
+		ave decus virginum,
+		virgo gloriosa,
+		ave mundi luminar,
+		ave mundi rosa,
+		Blanzifor et Helena,
+		Venus generosa!`,'']
+	]
+}
 ]
 
 
