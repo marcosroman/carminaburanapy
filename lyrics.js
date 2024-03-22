@@ -749,21 +749,21 @@ const letras = [
 	comentarios: '<3',
 	letra: [ 
 		[`Stetit puella
-		rufa tunica;
-		si quis eam tetigit,
-		tunica crepuit.`,
-		`Una chica se paró
-		con un vestido rojo;
-		si alguien lo tocó,
-		crujió.`],
+		rufa tunica
+		si quis eam tetigit
+		tunica crepuit`,
+		`La muchacha se paró
+		con su túnica roja;
+		si alguien la tocaba,
+		la túnica crujía.`]
 		[`Stetit puella
-		tamquam rosula;
-		facie spleduit,
+		tamquam rosula
+		facie spleduit
 		os eius floruit.`,
-		`Una chica se paró
-		como una pequeña rosa;
-		su rostro estaba radiante
-		y su boca en flor.`]
+		`La muchacha se paró
+		como una rosa;
+		su rostro resplandecía,
+		su boca florecía.`]
 	]
 },
 {
@@ -873,14 +873,22 @@ const letras = [
 	titulo: ['Ave formosissima', 'Salve hermosisima'],
 	comentarios: 'Esta grandiosa canción es una parodia del Ave María, utilizando títulos similares para honrar a su amada en lugar de a la Virgen María. Las líneas finales la comparan con Blanchefleur (la heroína de un romance popular del siglo XII), Helena de Troya e incluso la propia Venus.',
 	letra: [
-		[`Ave formosissima,
-		gema pretiosa,
-		ave decus virginum,
-		virgo gloriosa,
-		ave mundi luminar,
-		ave mundi rosa,
-		Blanzifor et Helena,
-		Venus generosa!`,'']
+		[`Ave formosissima
+		gema pretiosa
+		ave decus virginum
+		virgo gloriosa`,
+		`Salve, la más bella,
+		joya preciosa,
+		Salve, orgullo entre las vírgenes,
+		virgen gloriosa`],
+		[`ave mundi luminar
+		ave mundi rosa
+		Blanzifor et Helena
+		Venus generosa!`,
+		`Salve, luz del mundo,
+		Salve, rosa del mundo,
+		Blanchefleur, Helena,
+		¡Noble Venus!`]
 	]
 }
 ]
