@@ -189,14 +189,13 @@ const letras = [
 		alter in altum tollitur
 		nimis exaltatus`
 		,
-		`Gira la rueda de Fortuna
-		reducida, voy a más lo más bajo
+		`Fortuna hace girar la rueda:
+		reducida, voy para abajo;
 		otro es ascendido
 		a lo más alto`
 		]
 		,
-		[
-		`rex sedet in vertice
+		[`rex sedet in vertice
 		caveat ruinam!
 		nam sub axe legimus:
 		hecubam reginam`
