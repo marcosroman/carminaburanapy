@@ -40,7 +40,7 @@ const letras = [
 		[`status malus
 		vana salus
 		semper dissolubilis`,
-		`Eres malevola.
+		`Eres malevolente;
 		Salvación vana,
 		siempre se desvanece`],
 		[`obumbrata
