@@ -476,7 +476,7 @@ const letras = [
 {
 	bg: '#2e75d1',
 	titulo: ['Ego sum abbas','Yo soy el abad'],
-	comentarios: 'Este antiguo lamento medieval, el Abad expresa el pesar por la pérdida de la alegría en la vida, resultado de la excesiva juerga y desenfreno. Nos recuerda las peligrosas repercusiones de la falta de moderación en nuestras acciones.',
+	comentarios: 'En este lamento medieval, el Abad expresa el pesar por la pérdida de la alegría en la vida, resultado de la excesiva juerga y desenfreno. Nos recuerda las peligrosas repercusiones de la falta de moderación en nuestras acciones.',
 	letra: [
 		[`Ego sum abbas Cucaniensis
 		et consilium meum est cum bibulis,
