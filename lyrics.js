@@ -646,24 +646,28 @@ const letras = [
 {
 	bg: '#9a0ef1',
 	titulo: ['Stetit puella', 'Una muchacha se detuvo'],
-	comentarios: '<3',
+	comentarios: '<3 ("Eia" es una exclamación frecuentemente utilizada en la poesía medieval para expresar alegría, deleite)',
 	letra: [ 
 		[`Stetit puella
 		rufa tunica
 		si quis eam tetigit
-		tunica crepuit`,
+		tunica crepuit,
+  		Eia!`,
 		`Una muchacha se detuvo
 		con su túnica roja;
 		si alguien la tocaba,
-		la túnica crujía.`],
+		la túnica crujía.
+  		Eia!`],
 		[`Stetit puella
 		tamquam rosula
 		facie spleduit
-		os eius floruit.`,
+		os eius floruit,
+  		Eia!`,
 		`Una muchacha se detuvo
 		como una rosa;
 		su rostro resplandecía,
-		su boca florecía.`]
+		su boca florecía.
+	  	Eia!`]
 	]
 },
 {
