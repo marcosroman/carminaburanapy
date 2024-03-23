@@ -263,7 +263,7 @@ const letras = [
 		[`quisquis amat taliter
 		volvitur in rota`,
 		`Quien ame tanto así
-		...hace girar la rueda...`]
+		hace girar la rueda...`]
 	]
 }
 ,
