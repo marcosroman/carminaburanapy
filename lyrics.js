@@ -433,7 +433,7 @@ const letras = [
 {
 	bg: '#28cad7',
 	titulo: ['Olim lacus colueram','El cisne asado canta'],
-	comentarios: 'Una música bastante beoda y desenfocada acompaña este solo de tenor, cantado desde el punto de vista del desafortunado plato principal en cena.',
+	comentarios: 'Una música bastante beoda y desenfocada acompaña este solo de tenor, cantado desde el punto de vista del desafortunado plato principal de la cena.',
 	letra: [
 		[`Olim lacus colueram,
 		olim pulcher extiteram,
